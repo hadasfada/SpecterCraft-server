@@ -1,0 +1,94 @@
+{
+  "betteranimalsplus:bad_fox": {
+    "criteria": {
+      "no_bam": "2022-04-25 06:26:21 -0700"
+    },
+    "done": false
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-04-25 06:29:27 -0700"
+    },
+    "done": true
+  },
+  "illagers_plus:find_fort": {
+    "criteria": {
+      "fortress": "2022-04-26 11:41:04 -0700"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2022-04-25 06:29:27 -0700"
+    },
+    "done": true
+  },
+  "illagers_plus:spawn_reinforcements": {
+    "criteria": {
+      "fortress": "2022-04-26 11:41:04 -0700"
+    },
+    "done": false
+  },
+  "illagers_plus:find_tower": {
+    "criteria": {
+      "fortress": "2022-04-25 09:31:40 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-04-26 11:18:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2022-04-25 06:29:27 -0700"
+    },
+    "done": true
+  },
+  "nature_expansion:first_advancement": {
+    "criteria": {
+      "first_advancement": "2022-04-25 06:26:09 -0700"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "way_sign": "2022-04-26 11:07:07 -0700"
+    },
+    "done": true
+  },
+  "schoolsofmagic:schoolsofmagic/basic_arcana": {
+    "criteria": {
+      "get_item": "2022-04-26 13:06:01 -0700"
+    },
+    "done": true
+  },
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2022-04-25 06:26:10 -0700"
+    },
+    "done": true
+  },
+  "illagers_plus:find_mine": {
+    "criteria": {
+      "fortress": "2022-04-25 09:25:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-04-25 09:27:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands_plateau": "2022-04-25 06:28:46 -0700",
+      "minecraft:badlands": "2022-04-26 09:54:26 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

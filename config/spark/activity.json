@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "hadasfadaa",
+      "uniqueId": "0daebc71-0369-41c4-81eb-c58b3bae92df"
+    },
+    "time": 1650723526187,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Efe\\Desktop\\spectercraft server pack\\config\\spark\\heap-2022-04-23_17.18.40.hprof"
+    }
+  }
+]

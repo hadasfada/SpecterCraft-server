@@ -1,0 +1,129 @@
+{
+  "schoolsofmagic:schoolsofmagic/youre_a_wizard": {
+    "criteria": {
+      "get_item": "2022-04-26 13:03:08 -0700"
+    },
+    "done": true
+  },
+  "betteranimalsplus:bad_fox": {
+    "criteria": {
+      "no_bam": "2022-04-25 06:35:04 -0700"
+    },
+    "done": false
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-04-25 09:35:40 -0700"
+    },
+    "done": true
+  },
+  "illagers_plus:find_fort": {
+    "criteria": {
+      "fortress": "2022-04-25 09:42:21 -0700"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2022-04-25 09:35:40 -0700"
+    },
+    "done": true
+  },
+  "illagers_plus:spawn_reinforcements": {
+    "criteria": {
+      "fortress": "2022-04-25 09:42:21 -0700"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2022-04-26 09:51:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-04-26 11:21:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2022-04-26 09:31:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2022-04-26 09:53:32 -0700",
+      "minecraft:spider": "2022-04-26 09:53:37 -0700",
+      "minecraft:creeper": "2022-04-26 09:51:50 -0700",
+      "minecraft:zombie": "2022-04-26 09:51:10 -0700"
+    },
+    "done": false
+  },
+  "schoolsofmagic:schoolsofmagic/podium": {
+    "criteria": {
+      "get_item": "2022-04-26 13:03:12 -0700"
+    },
+    "done": true
+  },
+  "nature_expansion:first_advancement": {
+    "criteria": {
+      "first_advancement": "2022-04-25 06:34:56 -0700"
+    },
+    "done": true
+  },
+  "spartanweaponry:upgrade_netherite_weapon": {
+    "criteria": {
+      "has_netherite_weapon": "2022-04-26 09:51:07 -0700"
+    },
+    "done": true
+  },
+  "schoolsofmagic:schoolsofmagic/basic_arcana": {
+    "criteria": {
+      "get_item": "2022-04-26 13:03:06 -0700"
+    },
+    "done": true
+  },
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2022-04-25 06:34:57 -0700"
+    },
+    "done": true
+  },
+  "spartanweaponry:boomerang": {
+    "criteria": {
+      "has_boomerang": "2022-04-26 09:51:34 -0700"
+    },
+    "done": true
+  },
+  "illagers_plus:find_mine": {
+    "criteria": {
+      "fortress": "2022-04-25 06:36:49 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-04-26 09:51:10 -0700"
+    },
+    "done": true
+  },
+  "spartanweaponry:saber": {
+    "criteria": {
+      "has_saber": "2022-04-26 09:51:07 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands_plateau": "2022-04-25 06:36:23 -0700",
+      "minecraft:badlands": "2022-04-25 09:41:47 -0700",
+      "minecraft:dark_forest": "2022-04-26 11:21:19 -0700",
+      "minecraft:river": "2022-04-26 11:23:17 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

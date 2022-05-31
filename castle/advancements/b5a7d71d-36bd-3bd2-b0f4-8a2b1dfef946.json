@@ -1,0 +1,121 @@
+{
+  "schoolsofmagic:schoolsofmagic/youre_a_wizard": {
+    "criteria": {
+      "get_item": "2022-04-25 06:13:20 -0700"
+    },
+    "done": true
+  },
+  "betteranimalsplus:bad_fox": {
+    "criteria": {
+      "no_bam": "2022-04-25 05:33:42 -0700"
+    },
+    "done": false
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-04-25 05:36:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2022-04-25 06:20:10 -0700"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2022-04-25 05:36:47 -0700"
+    },
+    "done": true
+  },
+  "spartanweaponry:scythe": {
+    "criteria": {
+      "has_scythe": "2022-04-25 05:55:17 -0700"
+    },
+    "done": true
+  },
+  "create:extendo_grip": {
+    "criteria": {
+      "0": "2022-04-25 06:03:24 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-04-25 05:36:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:slime": "2022-04-25 05:53:09 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:slime": "2022-04-25 05:53:09 -0700"
+    },
+    "done": false
+  },
+  "schoolsofmagic:schoolsofmagic/podium": {
+    "criteria": {
+      "get_item": "2022-04-25 06:08:38 -0700"
+    },
+    "done": true
+  },
+  "spartanweaponry:dagger": {
+    "criteria": {
+      "has_dagger": "2022-04-25 06:14:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2022-04-25 06:15:07 -0700"
+    },
+    "done": true
+  },
+  "nature_expansion:first_advancement": {
+    "criteria": {
+      "first_advancement": "2022-04-25 05:33:34 -0700"
+    },
+    "done": true
+  },
+  "schoolsofmagic:schoolsofmagic/basic_arcana": {
+    "criteria": {
+      "get_item": "2022-04-25 06:08:41 -0700"
+    },
+    "done": true
+  },
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2022-04-25 05:33:34 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-04-25 05:49:19 -0700"
+    },
+    "done": true
+  },
+  "schoolsofmagic:schoolsofmagic/apprentice_wand": {
+    "criteria": {
+      "get_item": "2022-04-25 06:08:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2022-04-25 05:33:34 -0700",
+      "minecraft:beach": "2022-04-25 05:37:16 -0700",
+      "minecraft:river": "2022-04-25 05:35:43 -0700",
+      "minecraft:forest": "2022-04-25 05:36:07 -0700",
+      "minecraft:plains": "2022-04-25 05:34:44 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}
