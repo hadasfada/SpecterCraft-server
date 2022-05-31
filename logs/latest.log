@@ -1,2 +1,1137 @@
-[04:05:04] [Craft Scheduler Thread - 62923/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Checking for updates...
-[04:05:04] [Craft Scheduler Thread - 62923/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] No update found
+[13:29:17] [main/INFO] [STDOUT/]: Update in check...
+[13:29:17] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[13:29:18] [main/INFO] [STDOUT/]: The latest Mohist version is 1.16.5-1012 but you have 1.16.5-964. The latest version has been built on 2022-05-30 11:54:04. You should update to fix recent bugs !
+[13:29:18] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 964, --fml.forgeVersion, 36.2.33, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, launchedWithJava16+]
+[13:29:18] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 16.0.2 by Eclipse Foundation
+[13:29:18] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[13:29:18] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/Administrator/Desktop/SpecterCraft-server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[13:29:27] [main/ERROR] [mixin/]: Mixin config unionlib.mixins.json does not specify "minVersion" property
+[13:29:27] [main/ERROR] [mixin/]: Mixin config rubidium.mixins.json does not specify "minVersion" property
+[13:29:27] [main/ERROR] [mixin/]: Mixin config emotecraft.mixins.json does not specify "minVersion" property
+[13:29:27] [main/ERROR] [mixin/]: Mixin config bendylib.mixin.json does not specify "minVersion" property
+[13:29:27] [main/ERROR] [mixin/]: Mixin config illagers_plus.mixin.json does not specify "minVersion" property
+[13:29:28] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [arekkuusu.offhandcombat.common.core.Connector]
+[13:29:28] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., launchedWithJava16+]
+[13:29:28] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 29 options available, 1 override(s) found
+[13:29:38] [main/WARN] [mixin/]: Error loading class: top/theillusivec4/culinaryconstruct/common/item/CulinaryItemBase (java.lang.ClassNotFoundException: null)
+[13:29:38] [main/WARN] [mixin/]: @Mixin target top.theillusivec4.culinaryconstruct.common.item.CulinaryItemBase was not found origins.forge.mixins.json:compat.cconstruct.CulinaryItemBaseMixin
+[13:29:38] [main/WARN] [mixin/]: Error loading class: org/jwaresoftware/mcmods/vfp/common/VfpPantryItem (java.lang.ClassNotFoundException: null)
+[13:29:38] [main/WARN] [mixin/]: @Mixin target org.jwaresoftware.mcmods.vfp.common.VfpPantryItem was not found origins.forge.mixins.json:compat.vfp.VfpPantryItemMixin
+[13:29:40] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER
+[13:29:40] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHelper (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHelper for invalid dist DEDICATED_SERVER)
+[13:29:40] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHelper was not found magnesium_extras.mixins.json:Zoom.MouseMixin
+[13:29:40] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/layers/BipedArmorLayer for invalid dist DEDICATED_SERVER
+[13:29:40] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/BipedArmorLayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/layers/BipedArmorLayer for invalid dist DEDICATED_SERVER)
+[13:29:41] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.BipedArmorLayer was not found neapolitan.mixins.json:BipedArmorLayerMixin
+[13:29:55] [main/INFO] [FerriteCore - class definer/]: Using Java 9+ class definer
+[13:30:35] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping xlpackets.mixins.json:PacketBufferMixin->@ModifyConstant::xlPackets(J)J with priority 1000, already redirected by randompatches.mixins.json:packetsizelimits.PacketBufferMixin->@ModifyConstant::getMaxNBTCompoundTagPacketSize(J)J with priority 1000
+[13:30:37] [main/INFO] [Puzzles Lib/]: Registering element tinyskeletons:tiny_skeletons
+[13:30:38] [main/INFO] [Puzzles Lib/]: Registering element visualworkbench:visual_workbench
+[13:30:40] [main/INFO] [paintings/]: loading json file and contents for paintings.
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting abstract_blue , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting abstract_rainbow , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting abstract_red , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting abstract_sunset , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting arachnophobe , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting barn_owl , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting big_z , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting blue_bird , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting bluesclues , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting borgia , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting cane , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting cat_black , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting cat_gray , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting cat_orange , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting cat , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting colorful_squares , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting crest , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting danger_zone , 32 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting decorative_gun , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting exit_down , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting exit_up , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting exit_left , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting exit_right , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_bat , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_chicken , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_cow , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_creeper , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_dog , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_enderman , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_pig , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_pigman , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_silverfish , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_skeleton , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_squid , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting face_zombie , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting fishes , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting flowers , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting fruits , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting ghost , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting glowlamp , 32 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting glowstone_hourglass , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting iluvmc , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting link , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting mine_prosperity , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting no_trespassing_for_mobs , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting ocelot , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting penguin , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting pig_on_a_cliff , 32 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting pkmn_blue , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting pkmn_red , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting pkmn_green , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting plains_hut , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting portrait_2 , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting portrait , 32 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting prison , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting prosperity , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting rest , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting skeleton , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting sky , 32 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting skyblock , 32 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting snake , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting snow_landscape , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting subaraki , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting synth_city , 16 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting tapistry_a , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting tapistry_b , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting tapistry_purple , 16 x 32
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting torched , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting waterfall , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting whale , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting wheat_field , 32 x 16
+[13:30:40] [main/INFO] [paintings/]: Loaded json painting wolf_in_wheat , 32 x 16
+[13:30:41] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:registerConfig:279]: Registered the config for union
+[13:30:44] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:295]: C:\Users\Administrator\Desktop\SpecterCraft-server\config
+[13:30:44] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:295]: C:\Users\Administrator\Desktop\SpecterCraft-server\config
+[13:30:44] [modloading-worker-1/INFO] [org.infernalstudios.secondchanceforge.SecondChanceForge/]: Second Chance: Sound Events Registered!
+[13:30:45] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.ClientCape:loadCapes:46]: Found the cape Json file on GitHub
+[13:30:47] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.ClientCape:loadCapes:54]: Found cape for 4da67eb9-7966-4aa3-b2f6-7ee90bf606d2 they seem to want to use the stereowalker cape
+[13:30:47] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.ClientCape:loadCapes:54]: Found cape for 6569abe0-e92b-4aaf-ba4a-800b346c32f3 they seem to want to use the minecon2016 cape
+[13:30:47] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.ClientCape:loadCapes:54]: Found cape for b4640bf0-c41d-3c36-b901-fd2d90b54431 they seem to want to use the custom3 cape
+[13:30:47] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.ClientCape:loadCapes:54]: Found cape for 986e2557-0d63-37ec-acd8-20f952a01923 they seem to want to use the minecon2011 cape
+[13:30:47] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.ClientCape:loadCapes:54]: Found cape for e2401a9b-d035-3821-b275-03f8b4339b02 they seem to want to use the minecon2013 cape
+[13:30:47] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.ClientCape:loadCapes:54]: Found cape for 74649178-0bc8-3661-8503-68ca5190d4bb they seem to want to use the custom2 cape
+[13:30:48] [modloading-worker-2/INFO] [TerraForged/]: Environment: dev=false, stable=true, vanilla=false
+[13:30:48] [modloading-worker-2/INFO] [TerraForged/]: Running on minimum supported core-count. Performance may not be optimal!
+[13:30:48] [modloading-worker-2/INFO] [TerraForged/]: Signature:  7b:73:d0:a2:c3:40:13:84:35:4f:c9:0e:2b:85:8c:08:ea:3c:3c:eb:f1:98:8b:5b:6e:ca:8a:a0:9a:cf:12:b3
+[13:30:49] [modloading-worker-1/INFO] [Puzzles Lib/]: Setting up mod tinyskeletons with elements tinyskeletons:tiny_skeletons
+[13:30:48] [modloading-worker-3/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[13:30:49] [modloading-worker-2/INFO] [TerraForged/]: Trust Data: CN=TerraForged self-signed
+[13:30:49] [modloading-worker-3/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[13:30:49] [modloading-worker-2/INFO] [TerraForged/]: Initializing tags
+[13:30:49] [modloading-worker-3/INFO] [chocolate/]: Vanilla is real good, but chocolate is better, let's be honest. :)
+[13:30:52] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 0.7.3.9 is initializing. Have fun!
+[13:30:55] [modloading-worker-2/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[13:30:54] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:registerConfig:279]: Registered the config for survive
+[13:31:02] [modloading-worker-2/INFO] [Spartan Weaponry/]: Initialising API! Version: 6
+[13:31:05] [modloading-worker-0/INFO] [Kiwi/Init]: Processing 5 KiwiModule annotations
+[13:31:07] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:295]: C:\Users\Administrator\Desktop\SpecterCraft-server\config
+[13:31:14] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Containers.
+[13:31:09] [modloading-worker-2/INFO] [druidcraft/]: Loading Config: C:\Users\Administrator\Desktop\SpecterCraft-server\config\druidcraft-server.toml
+[13:31:20] [modloading-worker-2/INFO] [druidcraft/]: Built Config: C:\Users\Administrator\Desktop\SpecterCraft-server\config\druidcraft-server.toml
+[13:31:20] [modloading-worker-2/INFO] [druidcraft/]: Loaded Config: C:\Users\Administrator\Desktop\SpecterCraft-server\config\druidcraft-server.toml
+[13:31:20] [modloading-worker-2/INFO] [druidcraft/]: Loading Config: C:\Users\Administrator\Desktop\SpecterCraft-server\config\druidcraft-client.toml
+[13:31:20] [modloading-worker-2/INFO] [druidcraft/]: Built Config: C:\Users\Administrator\Desktop\SpecterCraft-server\config\druidcraft-client.toml
+[13:31:20] [modloading-worker-2/INFO] [druidcraft/]: Loaded Config: C:\Users\Administrator\Desktop\SpecterCraft-server\config\druidcraft-client.toml
+[13:31:18] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Recipes Serializers.
+[13:31:14] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:295]: C:\Users\Administrator\Desktop\SpecterCraft-server\config
+[13:31:25] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Entities.
+[13:31:22] [modloading-worker-2/INFO] [Puzzles Lib/]: Setting up mod visualworkbench with elements visualworkbench:visual_workbench
+[13:31:31] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Tile Entities.
+[13:31:29] [modloading-worker-1/WARN] [fallingleaves/]: Falling Leaves is a client only mod and should be removed from the mods list
+[13:31:28] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:registerConfig:279]: Registered the config for survive-server
+[13:31:44] [modloading-worker-3/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:295]: C:\Users\Administrator\Desktop\SpecterCraft-server\config
+[13:31:41] [modloading-worker-1/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/GameSettings for invalid dist DEDICATED_SERVER
+[13:31:39] [modloading-worker-2/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[13:31:35] [modloading-worker-0/INFO] [Furnish/]: Registered Furnish Sounds.
+[13:31:51] [modloading-worker-1/WARN] [mixin/]: Error loading class: net/minecraft/client/GameSettings (java.lang.RuntimeException: Attempted to load class net/minecraft/client/GameSettings for invalid dist DEDICATED_SERVER)
+[13:31:51] [modloading-worker-1/ERROR] [vice.magnesium_extras.MagnesiumExtras/]: Could not retrieve sodiumOptsField
+[13:31:52] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.33, for MC 1.16.5 with MCP 20210115.111550
+[13:31:52] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.33 Initialized
+[13:31:52] [modloading-worker-2/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[13:31:54] [modloading-worker-1/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[13:31:56] [modloading-worker-2/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[13:31:55] [modloading-worker-3/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[13:31:59] [modloading-worker-1/INFO] [STDOUT/]: [de.keksuccino.fancymenu.FancyMenu:<init>:115]: ## WARNING ## 'FancyMenu' is a client mod and has no effect when loaded on a server!
+[13:32:02] [modloading-worker-2/WARN] [de.keksuccino.loadmyresources.LoadMyResources/]: ## WARNING ## 'Load My Resources' is a client mod and has no effect when loaded on a server!
+[13:32:16] [main/INFO] [Kiwi/Init]: Module [kiwi:contributors] initialized
+[13:32:18] [main/INFO] [Kiwi/Init]: Module [snowrealmagic:core] initialized
+[13:32:18] [main/INFO] [Kiwi/Init]:     block: 8
+[13:32:18] [main/INFO] [Kiwi/Init]:     item: 1
+[13:32:18] [main/INFO] [Kiwi/Init]:     block_entity_type: 2
+[13:32:18] [main/INFO] [Kiwi/Init]:     entity_type: 1
+[13:32:18] [main/INFO] [Kiwi/Init]: Module [snowrealmagic:world] initialized
+[13:32:18] [main/INFO] [Kiwi/Init]:     worldgen/feature: 1
+[13:32:18] [main/INFO] [Kiwi/Init]: Module [snowrealmagic:terraforged] initialized
+[13:32:18] [main/INFO] [Kiwi/Init]: Module [kiwi:data] initialized
+[13:32:18] [main/INFO] [Kiwi/Init]:     recipe_serializer: 3
+[13:32:18] [main/INFO] [snowrealmagic/]: Serene Seasons compatibility enabled
+[13:32:30] [main/INFO] [com.hugomage.redpandas.RedPandas/]: HELLO from Register Block
+[13:32:32] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `snow`, expected `snowrealmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[13:32:33] [main/INFO] [druidcraft/]: Blocks registered.
+[13:32:39] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
+[13:32:39] [main/INFO] [additionalbanners/]: Registered 20 Item entries in 1.2ms.
+[13:32:40] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+[13:32:40] [main/INFO] [Spartan Weaponry/]: Registering items...
+[13:32:40] [main/INFO] [Spartan Weaponry/]: Items Registered!
+[13:32:41] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `snow`, expected `snowrealmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[13:32:41] [main/INFO] [Furnish/]: Registered Furnish Items.
+[13:32:41] [main/INFO] [druidcraft/]: Items registered.
+[13:32:41] [main/INFO] [Spartan Shields/]: Registering Items
+[13:32:41] [main/INFO] [Spartan Shields/]: Registered Items successfully!
+[13:32:42] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
+[13:32:42] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.48ms.
+[13:32:43] [main/INFO] [TerraForged/]: Registering level types
+[13:32:44] [main/INFO] [druidcraft/]: Tile Entities registered.
+[13:32:44] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[13:32:44] [main/INFO] [Spartan Shields/]: Registering Enchantments
+[13:32:44] [main/INFO] [Spartan Shields/]: Registered Enchantments successfully!
+[13:32:44] [main/INFO] [Spartan Weaponry/]: Registering Entities
+[13:32:44] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for druidcraft:dreadfish, use EntityAttributeCreationEvent instead.
+[13:32:44] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for druidcraft:beetle, use EntityAttributeCreationEvent instead.
+[13:32:44] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for druidcraft:lunar_moth, use EntityAttributeCreationEvent instead.
+[13:32:44] [main/INFO] [druidcraft/]: Entities registered.
+[13:32:45] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:archer, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:berserker, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:black_iron_golem, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:enchanter, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:frostmancer, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:furantur, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:hoarder, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:illager_general, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:illager_king, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:miner, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:necromancer, use EntityAttributeCreationEvent instead.
+[13:32:45] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[13:32:45] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[13:32:45] [main/INFO] [druidcraft/]: GUI registered.
+[13:32:45] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[13:32:45] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `poison`, expected `firstaid`. This could be a intended override, but in most cases indicates a broken mod.
+[13:32:45] [main/INFO] [firstaid/]: Don't worry, the minecraft poison override IS intended.
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@3b2e6cf1
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@5ffa596b
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@36b5ed16
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@1f1d480b
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@3119fd5f
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@3b106e8b
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@6b005a83
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@42a42d79
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@49dc975e
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@351c1d2b
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@7854a477
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@43267348
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@2ab66283
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@5ab98095
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@3c647690
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@321fb941
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@28b0ab77
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@4e23c47b
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@5f1a1e34
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@43cc8207
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@f54b40f
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@33d14048
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@7a5d087e
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@8347531
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@2ca7bae3
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@3314eef8
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@65fb0d51
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@5334a850
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@23857b9a
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@317cfdc1
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@36b9ae16
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@3525d7da
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@b91d280
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@7d924359
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@1a24cca5
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@793d23ad
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@3581b762
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@5aeebd4
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@2814a4a
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@7509bf3
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@6ba7c696
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@59b2f29
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@65d65c56
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@1073b94
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@6cf4addf
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@7f53d396
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@283ba69b
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@52e81c41
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@58ef6422
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@520ecb78
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@ddeff0d
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@36a64083
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@3721abfd
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@a8557c3
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@559201f4
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@7ff71cb3
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@19034ab3
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@2e12bc39
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@4bac6664
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@2da6fe1
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@44ff400d
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@4ff8d89d
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@47fbbeff
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@107af025
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@2213c4eb
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@58f3c746
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@33cb34d8
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@105ada4e
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@6b6dfadc
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@75b48785
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@57bd44bc
+[13:32:45] [main/INFO] [paintings/]: registered painting net.minecraft.entity.item.PaintingType@626a34d6
+[13:32:45] [main/INFO] [druidcraft/]: Particles registered.
+[13:32:45] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[13:32:45] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.4ms.
+[13:32:46] [main/INFO] [druidcraft/]: Recipes registered.
+[13:32:46] [main/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.registries.Registry:registerSounds:126]: Registered SoundEvents
+[13:32:46] [main/INFO] [druidcraft/]: Sound events registered.
+[13:32:46] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Sounds registered!
+[13:32:49] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
+[13:32:49] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
+[13:32:49] [main/INFO] [TerraForged/]: Registering decorators
+[13:32:49] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
+[13:32:49] [main/INFO] [TerraForged/]: Registering features
+[13:32:49] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `freeze_top_layer`, expected `snowrealmagic`. This could be a intended override, but in most cases indicates a broken mod.
+[13:32:49] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
+[13:32:50] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
+[13:32:50] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
+[13:32:51] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:load:361]: Loading all values from the config files into their respective configuration variables
+[13:32:51] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:load:365]: Loading union's config
+[13:32:51] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:load:365]: Loading survive's config
+[13:32:51] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:load:365]: Loading survive-server's config
+[13:32:51] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:reload:355]: Detected change in union's config file. Reloading values
+[13:32:51] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:reload:355]: Detected change in survive's config file. Reloading values
+[13:32:51] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:reload:355]: Detected change in survive-server's config file. Reloading values
+[13:32:51] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:onReload:342]: From the event itself
+[13:32:51] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[13:32:51] [modloading-worker-3/INFO] [TerraForged/]: Common setup
+[13:32:51] [modloading-worker-1/INFO] [Bookshelf/]: Registering 3 command argument types.
+[13:32:51] [modloading-worker-1/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[13:32:51] [modloading-worker-3/INFO] [com.hugomage.redpandas.RedPandas/]: HELLO FROM PREINIT
+[13:32:51] [modloading-worker-2/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.quests.quests.QuestBrewPotion:initialize:33]: Init Brew Potion Quest
+[13:32:51] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[13:32:51] [modloading-worker-3/INFO] [com.hugomage.redpandas.RedPandas/]: DIRT BLOCK >> minecraft:dirt
+[13:32:51] [modloading-worker-2/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.quests.quests.QuestBuildGolem:initialize:42]: Init Build Golem Quest
+[13:32:52] [modloading-worker-2/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.quests.quests.QuestEnchantItem:initialize:45]: Init Enchant Item Quest
+[13:32:52] [modloading-worker-2/INFO] [druidcraft/]: Setup method registered.
+[13:32:52] [modloading-worker-3/INFO] [firstaid/]: firstaid starting...
+[13:32:52] [modloading-worker-0/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Overspawning lammergeiers...
+[13:32:52] [modloading-worker-0/INFO] [voicechat/]: Compatibility version 14
+[13:32:52] [modloading-worker-0/INFO] [voicechat/]: Loading plugins
+[13:32:52] [modloading-worker-0/INFO] [voicechat/]: Loaded 0 plugin(s)
+[13:32:52] [modloading-worker-0/INFO] [voicechat/]: Initializing plugins
+[13:32:52] [modloading-worker-0/INFO] [voicechat/]: Initialized 0 plugin(s)
+[13:32:52] [modloading-worker-3/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[13:32:53] [modloading-worker-3/INFO] [me.steinborn.krypton.mod.shared.KryptonReforged/]: Compression will use Java 11, encryption will use Java
+[13:32:53] [modloading-worker-3/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[13:32:57] [modloading-worker-1/INFO] [CraftTweaker/]: CraftTweaker has loaded successfully!
+[13:32:57] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for flashnpcs:npc, use EntityAttributeCreationEvent instead.
+[13:32:57] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for guardvillagers:guard, use EntityAttributeCreationEvent instead.
+[13:32:57] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for astikorcarts:postilion, use EntityAttributeCreationEvent instead.
+[13:32:57] [main/INFO] [Puzzles Lib/]: Loading 2 elements during common setup...
+[13:32:58] [main/INFO] [com.litewolf101.illagers_plus.IllagersPlus/]: Made the world slightly more miserable
+[13:32:58] [modloading-worker-1/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13:32:58] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[13:32:58] [main/INFO] [Puzzles Lib/]: Loading 2 elements during server setup...
+[13:32:58] [modloading-worker-0/INFO] [hamster.farmersdelightintegrations.farmersdelightintegrations/]: Got IMC []
+[13:32:58] [modloading-worker-3/INFO] [com.hugomage.redpandas.RedPandas/]: Got IMC []
+[13:32:58] [modloading-worker-2/INFO] [com.paleimitations.schoolsofmagic.SchoolsOfMagicMod/]: Got IMC []
+[13:32:58] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for redpandas:red_panda, use EntityAttributeCreationEvent instead.
+[13:32:59] [modloading-worker-1/INFO] [TerraForged/]: Loaded TerraForged version 0.2.15
+[13:32:59] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Compostible Blocks Added!
+[13:32:59] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Hoeable Blocks!
+[13:32:59] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Flammables!
+[13:32:59] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added strippable Blocks...
+[13:32:59] [main/ERROR] [mixin/]: Write access detected to @Final field field_230026_g:Lnet/minecraft/util/math/shapes/VoxelShape; in passablefoliage.mixins.json:MixinBlockStateCache::handler$zih000$pfoliage_modifyCollisionShape
+[13:32:59] [main/ERROR] [mixin/]: Write access detected to @Final field field_222503_g:Z in passablefoliage.mixins.json:MixinBlockStateCache::handler$zih000$pfoliage_modifyCollisionShape
+[13:32:59] [main/ERROR] [mixin/]: Write access detected to @Final field field_225494_j:Z in passablefoliage.mixins.json:MixinBlockStateCache::handler$zih000$pfoliage_modifyCollisionShape
+[13:33:19] [main/INFO] [TerraForged/]: Creating TerraForged level settings
+[13:33:19] [main/INFO] [TerraForged/]: Creating TerraForged chunk-generator from preset Default
+[13:33:19] [main/INFO] [TerraForged/]: Loading strata base decorator
+[13:33:19] [main/INFO] [TerraForged/]: Creating dimension: minecraft:overworld
+[13:33:19] [main/INFO] [TerraForged/]: Creating dimension: minecraft:the_nether
+[13:33:20] [main/INFO] [TerraForged/]: Creating dimension: minecraft:the_end
+[13:33:20] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:33:20] [main/INFO] [TerraForged/]: Adding DataPackFinder
+[13:33:20] [main/INFO] [paxi/]: Adding global data pack provider...
+[13:33:22] [main/INFO] [TerraForged/]: Registering /terra command
+[13:33:23] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, secondchanceforge-1.16.5-1.3.0.jar, UnionLib-1.16.5-3.3.7.jar, flashnpcs-1.16.5-1.1.4.jar, locksmith-forge-1.0.1+1.16.5.jar, AdditionalBanners-1.16.5-6.0.3.jar, torohealth-1.16.4-forge-4.jar, rubidium-0.2.5.jar, villagernames_1.16.5-3.4.jar, TerraForged-1.16.5-0.2.15.jar, XaerosWorldMap_1.20.6_Forge_1.16.5.jar, Controlling-7.0.0.28.jar, farmersdelightintegrations-1.16.5-1.2.jar, YungsApi-1.16.4-Forge-13.jar, ImprovedBackpacks-1.6.2.1.jar, Bookshelf-Forge-1.16.5-10.4.32.jar, lootbeams-1.16.5-release-nov0221.jar, guardvillagers-1.16.5.1.2.6.jar, randompatches-2.4.4-forge.jar, PickUpNotifier-v1.2-1.16.3.jar, litematica-forge-1.16.5-0.0.0-dev.20210606.150444.jar, SnowRealMagic-1.16.4-2.9.0.jar, carryon-1.16.5-1.15.5.22.jar, JustEnoughResources-1.16.5-0.12.1.133.jar, RevampedWolf-1.16.4-0.7.1.jar, supplementaries-1.16.5-0.18.4.jar, konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar, corpse-1.16.5-1.0.6.jar, AdvancementPlaques-1.16.5-1.4.1.jar, TinySkeletons-v1.0.1-1.16.5-Forge.jar, chocolate-1.3.0-1.16.4.jar, mcw-bridges-2.0.2-mc1.16.5.jar, FarmersDelight-1.16.5-0.5.5.jar, cleancut-mc1.16-2.2-forge.jar, RedPandas 1.1.jar, BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar, fastfurnaceminusreplacement-1.1-1.16.3.jar, simpleshops-1.1.3.jar, projectvibrantjourneys-1.16.5-3.2.11.jar, spark-forge.jar, SchoolsOfMagic1.16.5-2.1.04.jar, Origins-1.16.5-0.7.3.9-forge.jar, collective-1.16.5-4.25.jar, Survive-1.16.5-3.4.7.jar, malilib-forge-1.16.5-0.10.0-dev.21+beta.1.jar, just_enough_keg-1.16.5-1.0.2.jar, SpartanWeaponry-1.16.5-2.2.0-rc-2.jar, architectury-1.30.57.jar, AI-Improvements-1.16.5-0.4.0.jar, Adorn-1.14.1+1.16.5-forge.jar, cloth-config-4.14.54-forge.jar, fastbenchminusreplacement-1.4.jar, FallingTree-1.16.5-2.11.5.jar, smallships-1.16.5-1.10.1.jar, controllable-0.14.1-1.16.5.jar, geckolib-forge-1.16.5-3.0.68.jar, Kiwi-1.16.5-3.6.1.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, ConfigMenusForge-v1.2.0-1.16.5-Forge.jar, xlpackets-1.16.4-1.2.jar, jei-1.16.5-7.7.1.152.jar, furnish-1.16.5-0.5-fix1.jar, Druidcraft-1.16.5-0.4.54.jar, VisualWorkbench-v1.1.0-1.16.5.jar, abnormals_core-1.16.5-3.3.1.jar, caelus-forge-1.16.5-2.1.3.2.jar, Paxi-Forge-1.16.4-1.0.jar, extraboats-1.16.5-2.1.1.jar, PassableFoliage-1.16.5-2.4.0.jar, Fallingleaves-1.16.3-1.2.4.jar, Clumps-6.0.0.28.jar, comforts-forge-1.16.5-4.0.1.5.jar, tumbleweed-1.16-0.4.9.jar, SereneSeasons-1.16.5-4.0.1.125-universal.jar, betteranimalsplus-1.16.5-11.0.5-forge.jar, BadMobs-1.16.5-9.0.6.jar, sulfuric-1.1.jar, JEITweaker-1.16.5-1.1.0.49.jar, magnesium_extras-mc1.16.5_v1.3.1.jar, CraftTweaker-1.16.5-7.1.2.508.jar, firstaid-1.9.8.jar, mohist-1.16.5-964-universal.jar, Waddles-1.16.5-0.8.13.jar, TravelersTitles-1.16.4-1.5.jar, OffHandCombat-1.16.3-3.2.0.3.jar, neapolitan-1.16.5-2.2.1.jar, emotecraft-for-MC1.16.5-2.1-forge.jar, DynamicSurroundings-1.16.5-4.0.5.0.jar, selene-1.16.5-1.9.0.jar, voicechat-forge-1.16.5-2.2.32.jar, EnchantmentDescriptions-1.16.5-7.0.19.jar, pollen-forge-1.3.1+1.16.5.jar, MouseTweaks-2.14-mc1.16.2.jar, simple-rpc-1.16.5-2.7.2.jar, farmersdelightintegration-1.16.5-1.0.3.jar, astikorcarts-1.16.5-1.1.1.jar, personality-1.16.5-1.0.3.jar, atmospheric-1.16.5-3.1.1.jar, paintings-1.16.4-7.0.0.1.jar, jeiintegration_1.16.5-7.0.1.15.jar, Iceberg-1.16.5-1.0.38.jar, flywheel-1.16-0.2.5.jar, create-mc1.16.5_v0.3.2g.jar, SpartanShields-1.16.5-2.1.2.jar, polymorph-forge-1.16.5-0.40.jar, kryptonreforged-mc1.16.5_v1.0.0.jar, JustEnoughProfessions-1.16.5-1.2.2.jar, AutoRegLib-1.6-49.jar, InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar, norecipeadvancements-1.0.1.jar, fancymenu_forge_2.6.4_MC_1.16.2-1.16.5.jar, Daleenys_Swamp_Expansion_Mod_for_MCV_1.16.5.jar, ferritecore-2.1.0-forge.jar, PuzzlesLib-v1.0.15-1.16.5-Forge.jar, byg-1.3.5.jar, Aquaculture-1.16.5-2.1.22.jar, illagers_plus-1.16.4v1.7.2.jar, overloadedarmorbar-5.1.0.jar, loadmyresources_1.0.1_MC_1.16.2-1.16.5.jar, NatureExpansion1.5.jar, drinkbeer-1.16.5-2.3.5.jar, bukkit
+[13:33:24] [main/INFO] [gg.moonflower.pollen.api.resource.modifier.ResourceModifierManager/]: Loaded 0 data modifiers
+[13:33:27] [ForkJoinPool.commonPool-worker-5/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent com/stereowalker/survive/util/data/ConsummableData for class com/stereowalker/survive/util/data/PotionData in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd on thread Thread[ForkJoinPool.commonPool-worker-5,5,main]
+[13:33:28] [ForkJoinPool.commonPool-worker-5/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: com.stereowalker.survive.util.data.ConsummableData
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:62) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:21) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:20) ~[eventbus-4.0.0.jar:4.0.0+65+master.6080a3f]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.stereowalker.survive.resource.PotionDrinkDataManager.lambda$load$1(PotionDrinkDataManager.java:47) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[13:33:29] [ForkJoinPool.commonPool-worker-5/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent com/stereowalker/survive/util/data/JsonData for class com/stereowalker/survive/util/data/ConsummableData in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd on thread Thread[ForkJoinPool.commonPool-worker-5,5,main]
+[13:33:29] [ForkJoinPool.commonPool-worker-5/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: com.stereowalker.survive.util.data.JsonData
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:62) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:21) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:20) ~[eventbus-4.0.0.jar:4.0.0+65+master.6080a3f]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:138) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.stereowalker.survive.resource.PotionDrinkDataManager.lambda$load$1(PotionDrinkDataManager.java:47) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[13:33:27] [ForkJoinPool.commonPool-worker-3/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent com/stereowalker/survive/util/data/ConsummableData for class com/stereowalker/survive/util/data/FoodData in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd on thread Thread[ForkJoinPool.commonPool-worker-3,5,main]
+[13:33:27] [ForkJoinPool.commonPool-worker-7/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent com/stereowalker/survive/util/data/JsonData for class com/stereowalker/survive/util/data/ArmorData in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd on thread Thread[ForkJoinPool.commonPool-worker-7,5,main]
+[13:33:29] [ForkJoinPool.commonPool-worker-3/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: com.stereowalker.survive.util.data.ConsummableData
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:62) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:21) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:20) ~[eventbus-4.0.0.jar:4.0.0+65+master.6080a3f]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.stereowalker.survive.resource.ItemConsummableDataManager.lambda$load$2(ItemConsummableDataManager.java:52) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[13:33:29] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found potion drink data for minecraft:water
+[13:33:29] [ForkJoinPool.commonPool-worker-7/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: com.stereowalker.survive.util.data.JsonData
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:62) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:21) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:20) ~[eventbus-4.0.0.jar:4.0.0+65+master.6080a3f]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.stereowalker.survive.resource.ArmorDataManager.lambda$load$1(ArmorDataManager.java:48) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:chainmail_boots
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:chainmail_chestplate
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:chainmail_helmet
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:chainmail_leggings
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:diamond_boots
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:diamond_chestplate
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:diamond_helmet
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:diamond_leggings
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:golden_boots
+[13:33:29] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:golden_chestplate
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:beetroot_soup
+[13:33:29] [ForkJoinPool.commonPool-worker-3/WARN] [survive/]: No such item exists with the id survive:example_consumable_item!
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:honey_bottle
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:melon_slice
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:poisonous_potato
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:potion
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:pufferfish
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:pumpkin_pie
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for survive:purified_water_bottle
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for survive:purified_water_bowl
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for survive:purified_water_canteen
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:rotten_flesh
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for survive:sugar_water_bottle
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for minecraft:sweet_berries
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for survive:water_bowl
+[13:33:29] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found item consummable data for survive:water_canteen
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:golden_helmet
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:golden_leggings
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:iron_boots
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:iron_chestplate
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:iron_helmet
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:iron_leggings
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:leather_boots
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:leather_chestplate
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:leather_helmet
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:leather_leggings
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:netherite_boots
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:netherite_chestplate
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:netherite_helmet
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:netherite_leggings
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item survive:stiffened_honey_boots
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item survive:stiffened_honey_chestplate
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item survive:stiffened_honey_helmet
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item survive:stiffened_honey_leggings
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item minecraft:turtle_helmet
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item survive:wool_boots
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item survive:wool_hat
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item survive:wool_jacket
+[13:33:30] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found armor modifier for the item survive:wool_pants
+[13:33:31] [ForkJoinPool.commonPool-worker-7/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent com/stereowalker/survive/util/data/JsonData for class com/stereowalker/survive/util/data/EntityTemperatureData in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd on thread Thread[ForkJoinPool.commonPool-worker-7,5,main]
+[13:33:31] [ForkJoinPool.commonPool-worker-7/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: com.stereowalker.survive.util.data.JsonData
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:62) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:21) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:20) ~[eventbus-4.0.0.jar:4.0.0+65+master.6080a3f]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.stereowalker.survive.resource.EntityTemperatureDataManager.lambda$load$1(EntityTemperatureDataManager.java:47) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[13:33:31] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found entity temperature modifier for the entity minecraft:fireball
+[13:33:31] [ForkJoinPool.commonPool-worker-5/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent com/stereowalker/survive/util/data/JsonData for class com/stereowalker/survive/util/data/BlockTemperatureData in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd on thread Thread[ForkJoinPool.commonPool-worker-5,5,main]
+[13:33:31] [ForkJoinPool.commonPool-worker-5/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: com.stereowalker.survive.util.data.JsonData
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:62) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:21) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:20) ~[eventbus-4.0.0.jar:4.0.0+65+master.6080a3f]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.stereowalker.survive.resource.BlockTemperatureDataManager.lambda$load$1(BlockTemperatureDataManager.java:47) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[13:33:31] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:blast_furnace
+[13:33:31] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:blue_ice
+[13:33:31] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:campfire
+[13:33:31] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:fire
+[13:33:31] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:furnace
+[13:33:31] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:ice
+[13:33:31] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:lantern
+[13:33:31] [ForkJoinPool.commonPool-worker-7/INFO] [survive/]: Found entity temperature modifier for the entity minecraft:small_fireball
+[13:33:32] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:lava
+[13:33:32] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:magma_block
+[13:33:31] [ForkJoinPool.commonPool-worker-3/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent com/stereowalker/survive/util/data/JsonData for class com/stereowalker/survive/util/data/BiomeTemperatureData in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd on thread Thread[ForkJoinPool.commonPool-worker-3,5,main]
+[13:33:32] [ForkJoinPool.commonPool-worker-3/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: com.stereowalker.survive.util.data.JsonData
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:62) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:21) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:20) ~[eventbus-4.0.0.jar:4.0.0+65+master.6080a3f]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at com.stereowalker.survive.resource.BiomeTemperatureDataManager.lambda$load$1(BiomeTemperatureDataManager.java:47) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[13:33:32] [ForkJoinPool.commonPool-worker-3/INFO] [survive/]: Found biome temperature modifier for the biome minecraft:birch_forest
+[13:33:32] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:packed_ice
+[13:33:32] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:smoker
+[13:33:32] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:snow
+[13:33:32] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:snow_block
+[13:33:33] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:soul_fire
+[13:33:33] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:soul_lantern
+[13:33:33] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:soul_torch
+[13:33:33] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:soul_wall_torch
+[13:33:33] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:torch
+[13:33:33] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:wall_torch
+[13:33:33] [ForkJoinPool.commonPool-worker-5/INFO] [survive/]: Found block temperature modifier for the item minecraft:water
+[13:33:39] [Worker-Main-4/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[13:33:39] [Worker-Main-4/INFO] [com.minecraftabnormals.abnormals_core.core.AbnormalsCore/]: Loot Modification Manager has loaded 1 sets of modifiers
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:light_blue_clay_powder_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:rose_bush_to_red_dye_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cyan_clay_powder_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:light_gray_clay_powder_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:dandelion_to_yellow_dye_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:bone_meal_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:ink_sac_to_black_dye_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:honey_bottle_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:orange_tulip_to_orange_dye_mortar
+[13:33:39] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cocoa_beans_to_brown_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:melon_seeds_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:gray_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cornflower_to_blue_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_tulip_to_red_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:stal_to_11_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pink_tulip_to_pink_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_allium_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:brown_mushroom_soup_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:beetroot_soup_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:wither_rose_to_black_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:yellow_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:black_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:bone_meal_to_white_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_dandelion_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:purple_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:sugar_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blue_orchid_to_light_blue_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blue_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_mushroom_soup_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lilac_to_magenta_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_blue_orchid_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lily_of_the_valley_to_white_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:oxeye_daisy_to_light_gray_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:magenta_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:white_tulip_to_light_gray_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:peony_to_pink_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:azure_bluet_to_light_gray_dye_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:glistering_melon_slice_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:white_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:orange_clay_powder_mortar
+[13:33:40] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:sunflower_to_yellow_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:poppy_to_red_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:glowstone_dust_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pumpkin_seeds_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:poppy_seeds_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:green_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:allium_to_magenta_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pink_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blaze_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lime_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:brown_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:terracotta_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_lily_of_the_valley_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_cornflower_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:light_blue_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:rose_bush_to_red_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cyan_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:light_gray_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:dandelion_to_yellow_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:bone_meal_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:ink_sac_to_black_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:honey_bottle_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:orange_tulip_to_orange_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cocoa_beans_to_brown_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:melon_seeds_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:gray_clay_powder_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:cornflower_to_blue_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_tulip_to_red_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:stal_to_11_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pink_tulip_to_pink_dye_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_allium_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:brown_mushroom_soup_mortar
+[13:33:41] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:beetroot_soup_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:wither_rose_to_black_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:yellow_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:black_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:bone_meal_to_white_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_dandelion_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:purple_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:sugar_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blue_orchid_to_light_blue_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blue_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_mushroom_soup_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lilac_to_magenta_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_blue_orchid_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lily_of_the_valley_to_white_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:oxeye_daisy_to_light_gray_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:magenta_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:white_tulip_to_light_gray_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:peony_to_pink_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:azure_bluet_to_light_gray_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:red_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:glistering_melon_slice_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:white_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:orange_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:sunflower_to_yellow_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:poppy_to_red_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:glowstone_dust_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pumpkin_seeds_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:poppy_seeds_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:green_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:allium_to_magenta_dye_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:pink_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:blaze_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:lime_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:brown_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:terracotta_clay_powder_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_lily_of_the_valley_mortar
+[13:33:42] [Worker-Main-4/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.crafting.MortarRecipe$Serializer:fromJson:106]: Registered Mortar Recipe:schoolsofmagic:crushed_cornflower_mortar
+[13:33:42] [Worker-Main-4/INFO] [com.minecraftabnormals.abnormals_core.core.AbnormalsCore/]: Advancement Modification Manager has loaded 8 sets of modifiers
+[13:33:43] [Worker-Main-4/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[13:33:44] [Worker-Main-4/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[13:33:44] [Worker-Main-4/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[13:33:46] [Worker-Main-4/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement nature_expansion:chorus_floer_advancement: Expected item to be an item, was unknown string 'nature_expansion:deleted_mod_element'
+[13:33:46] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 304 recipes
+[13:33:46] [Worker-Main-4/INFO] [net.permutated.norecipeadvancements.NoRecipeAdvancements/]: Skipped loading 3595 recipe advancements.
+[13:33:46] [Worker-Main-4/INFO] [io.github.apace100.origins.Origins/]: Finished loading powers from data files. Registry contains 69 powers.
+[13:33:46] [Worker-Main-4/INFO] [io.github.apace100.origins.Origins/]: Finished loading origins from data files. Registry contains 11 origins.
+[13:33:46] [Worker-Main-4/INFO] [io.github.apace100.origins.Origins/]: Trying to read layer file: origins:origin
+[13:33:46] [Worker-Main-4/INFO] [io.github.apace100.origins.Origins/]: Finished loading origin layers from data files. Read 1 layers.
+[13:33:46] [Worker-Main-4/INFO] [CraftTweaker/]: CraftTweaker reload starting!
+[13:33:47] [Worker-Main-4/INFO] [CraftTweaker/]: CraftTweaker reload complete!
+[13:33:58] [main/INFO] [TerraForged/]: Tags Reloaded
+[13:33:58] [main/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [byg:pine_logs, forge:glass_panes/magenta, projectvibrantjourneys:sakura_logs, byg:ground_kovan_flower, byg:ground_maple_sapling, byg:ground_silver_vase_flower, forge:storage_blocks/netherite, forge:glass_panes/white, supplementaries:beams, forge:glass_panes/light_gray, byg:maple_logs, forge:storage_blocks/ametrine, byg:ground_green_tulip, minecraft:dragon_immune, farmersdelight:heat_sources, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:glass/red, byg:blue_sand, byg:ground_cypress_sapling, forge:glass_panes/green, carryon:block_blacklist, adorn:wooden_posts, minecraft:prevent_mob_spawning_inside, forge:flowers, forge:fiber, forge:chests/trapped, forge:fence_gates, snowrealmagic:bottom_snow, projectvibrantjourneys:palm_logs, forge:bushes, byg:ground_araucaria_sapling, byg:ground_pine_sapling, adorn:platforms, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, atmospheric:rosewood_logs, byg:ground_witch_hazel_sapling, projectvibrantjourneys:mangrove_logs, byg:ground_purple_sage, adorn:shelves, byg:willow_logs, byg:ground_orange_oak_sapling, forge:storage_blocks/lapis, minecraft:beds, forge:ores/diamond, minecraft:doors, forge:black_sand, minecraft:infiniburn_overworld, minecraft:flower_pots, supplementaries:posts, origins:unphasable, byg:ground_flowering_jacaranda_bush, schoolsofmagic:podiums, byg:ground_begonia, byg:ground_osiria_rose, byg:ground_orange_birch_sapling, byg:palo_verde_logs, forge:glass/white, forge:glass_panes/red, minecraft:signs, druidcraft:rockroot_blocks, farmersdelight:mushroom_colony_growable_on, minecraft:wither_summon_base_blocks, byg:fir_logs, minecraft:hoglin_repellents, byg:ground_california_poppy, byg:ground_mangrove_sapling, byg:ground_brown_birch_sapling, create:fan_transparent, byg:ground_orchard_sapling, forge:sand/colorless, atmospheric:yucca_plantable_on, quark:wooden_vertical_slabs, byg:ground_ebony_sapling, adorn:stone_steps, minecraft:soul_speed_blocks, byg:pink_sand, forge:storage_blocks/moonstone, tconstruct:slimy_logs, minecraft:walls, byg:ground_red_cornflower, minecraft:coral_blocks, forge:glass/green, byg:ground_rainbow_eucalyptus_sapling, atmospheric:aspen_logs, minecraft:underwater_bonemeals, schoolsofmagic:wartwood_logs, minecraft:impermeable, minecraft:sand, forge:end_stones, druidcraft:darkwood_logs, schoolsofmagic:acolyte_logs, byg:ground_mini_cactus, forge:wg_stone, supplementaries:walls, forge:fences/wooden, sereneseasons:summer_crops, forge:wg_sediment, minecraft:campfires, supplementaries:vine_support, forge:storage_blocks, minecraft:infiniburn_nether, projectvibrantjourneys:joshua_logs, forge:glass_panes/orange, atmospheric:grimwood_logs, forge:ores/quartz, byg:ground_red_oak_sapling, forge:glass/blue, byg:ground_silver_maple_sapling, forge:supports_beacon, byg:ground_skyris_sapling, forge:saplings, minecraft:wooden_trapdoors, create:valve_handles, forge:storage_blocks/coal, byg:imparius_stems, forge:glass/light_blue, forge:storage_blocks/redstone, byg:withering_oak_logs, adorn:wooden_steps, minecraft:stairs, sereneseasons:unbreakable_infertile_crops, minecraft:logs, byg:ground_pink_cherry_sapling, byg:ground_brown_zelkova_sapling, byg:ground_holly_sapling, byg:ground_pink_anemone, minecraft:valid_spawn, minecraft:mushroom_grow_block, minecraft:wooden_doors, sereneseasons:autumn_crops, forge:glass/purple, minecraft:crimson_stems, byg:ground_incan_lily, forge:purple_sand, quark:hedges, byg:embur_pedus, byg:black_sand, byg:ground_yellow_tulip, minecraft:beacon_base_blocks, byg:ground_red_birch_sapling, adorn:coffee_tables, projectvibrantjourneys:baobab_logs, minecraft:anvil, forge:sand, sereneseasons:greenhouse_glass, minecraft:wall_corals, forge:grass, adorn:posts, adorn:chairs, byg:ground_yellow_birch_sapling, byg:ground_yellow_spruce_sapling, forge:sand/purple, byg:ground_yellow_daffodil, byg:ground_torch_ginger, forge:ores/gold, byg:ground_azalea, snowrealmagic:containables, minecraft:piglin_repellents, byg:ground_delphinium, forge:glass/black, minecraft:portals, snowrealmagic:not_containables, byg:cherry_logs, forge:fences/nether_brick, adorn:sofas, forge:glass/lime, forge:chests/wooden, forge:ores/iron, adorn:kitchen_blocks, minecraft:wooden_stairs, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, byg:ground_iris, forge:storage_blocks/anthracite, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:mud_bricks, byg:ground_peach_leather_flower, byg:ground_brown_oak_sapling, byg:ground_joshua_sapling, byg:cypress_logs, minecraft:slabs, forge:ores/moonstone, minecraft:guarded_by_piglins, forge:ores/emerald, byg:ground_japanese_orchid, byg:ground_blue_spruce_sapling, projectvibrantjourneys:tamarack_logs, adorn:kitchen_counters, minecraft:buttons, minecraft:corals, adorn:chimneys, byg:ground_prickly_pear_cactus, byg:ground_green_enchanted_sapling, byg:green_enchanted_logs, adorn:tables, projectvibrantjourneys:redwood_logs, minecraft:rails, forge:barrels/wooden, minecraft:strider_warm_blocks, atmospheric:morado_logs, byg:bulbis_stems, byg:ground_palo_verde_sapling, byg:ground_indigo_jacaranda_sapling, projectvibrantjourneys:pine_logs, byg:ground_winter_succulent, minecraft:bee_growables, minecraft:wooden_pressure_plates, create:brittle, schoolsofmagic:jubilee_logs, minecraft:tall_flowers, byg:sythian_stems, forge:sand/black, druidcraft:fiery_glass_ores, forge:bookshelves, minecraft:stone_pressure_plates, supplementaries:concrete_powders, adorn:table_lamps, minecraft:gold_ores, byg:ground_lament_sapling, supplementaries:palisades, forge:glass_panes/pink, byg:ground_angelica, adorn:steps, forge:netherrack, adorn:kitchen_cupboards, create:non_movable, minecraft:soul_fire_base_blocks, neapolitan:vanilla_plantable_on, forge:crops/flax, adorn:benches, neapolitan:unaffected_by_mint, farmersdelight:unaffected_by_rich_soil, byg:ground_fir_sapling, byg:ground_purple_tulip, forge:gravel, forge:glass_panes/cyan, minecraft:wool, forge:glass/colorless, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, byg:ground_guzmania, forge:ores/zinc, forge:ores/netherite_scrap, minecraft:crops, forge:fiber/flax, byg:zelkova_logs, forge:stained_glass, schoolsofmagic:bastion_logs, forge:storage_blocks/amber, minecraft:warped_stems, passablefoliage:passables, byg:ground_lazarus_bellflower, forge:storage_blocks/iron, create:seats, forge:glass_panes/brown, projectvibrantjourneys:aspen_logs, byg:ground_tall_prairie_grass, create:wrench_pickup, forge:ores/lignite, minecraft:climbable, byg:ground_tall_allium, byg:ground_redwood_sapling, snowrealmagic:invalid_supporters, byg:ground_white_cherry_sapling, minecraft:dark_oak_logs, farmersdelight:compost_activators, quark:ladders, minecraft:coral_plants, farmersdelight:tray_heat_sources, forge:glass_panes, minecraft:non_flammable_wood, atmospheric:kousa_logs, forge:sand/pink, forge:blue_sand, projectvibrantjourneys:cottonwood_logs, adorn:stone_posts, byg:nightshade_logs, create:safe_nbt, byg:ground_violet_leather_flower, byg:ground_foxglove, supplementaries:pane_connection, byg:skyris_logs, minecraft:fences, minecraft:saplings, forge:ores/copper, minecraft:mineable/pickaxe, betteranimalsplus:butterfly_growables, minecraft:unstable_bottom_center, byg:white_sand, byg:ground_palm_sapling, minecraft:enderman_holdable, minecraft:banners, minecraft:wooden_fences, byg:ground_orange_daisy, minecraft:wall_post_override, byg:ground_magenta_tulip, forge:obsidian, forge:enderman_place_on_blacklist, byg:ground_alpine_bellflower, byg:ground_pink_orchid, byg:ground_baobab_sapling, byg:ground_tall_pink_allium, byg:ground_purple_orchid, supplementaries:pouring_tank, forge:glass/magenta, forge:ores/coal, minecraft:fire, minecraft:base_stone_nether, minecraft:wall_signs, quark:vertical_slabs, carryon:block_whitelist, forge:sand/white, forge:workbench, byg:ground_protea_flower, forge:storage_blocks/pendorite, druidcraft:elder_logs, byg:ground_flowering_indigo_jacaranda_bush, byg:ground_black_rose, minecraft:trapdoors, forge:glass/cyan, forge:glass, forge:storage_blocks/lignite, minecraft:leaves, byg:baobab_logs, forge:storage_blocks/brass, byg:ground_ether_sapling, byg:mangrove_logs, byg:witch_hazel_logs, forge:glass_panes/gray, minecraft:wither_immune, atmospheric:yucca_logs, minecraft:acacia_logs, byg:mahogany_logs, forge:stained_glass_panes, atmospheric:passion_vine_growable_on, forge:storage_blocks/zinc, forge:sand/red, byg:lament_logs, schoolsofmagic:evermore_logs, forge:glass/brown, byg:ground_blue_enchanted_sapling, byg:ground_jacaranda_sapling, create:sails, origins:natural_stone, minecraft:logs_that_burn, projectvibrantjourneys:fir_logs, forge:glass/gray, forge:glass/light_gray, byg:ground_blue_sage, minecraft:wooden_slabs, projectvibrantjourneys:willow_logs, create:toolboxes, minecraft:small_flowers, byg:ground_cika_sapling, forge:glass_panes/black, byg:ground_aspen_sapling, farmersdelight:wild_crops, byg:ground_willow_sapling, supplementaries:rope_support, sereneseasons:winter_crops, forge:glass_panes/blue, byg:ground_horseweed, supplementaries:water_holder, byg:redwood_logs, forge:ores/amber, forge:stone, byg:ground_withering_oak_sapling, byg:ether_logs, byg:rainbow_eucalyptus_logs, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, druidcraft:fiery_glass_blocks, byg:ground_white_sage, schoolsofmagic:teapots, projectvibrantjourneys:maple_logs, byg:ground_richea, byg:blue_enchanted_logs, minecraft:wart_blocks, schoolsofmagic:vermilion_logs, adorn:wooden_shelves, farmersdelight:heat_conductors, byg:palm_logs, neapolitan:chimpanzee_jumping_blocks, byg:ground_red_orchid, minecraft:shulker_boxes, byg:ground_bistort, minecraft:birch_logs, create:fan_heaters, byg:ground_rose, byg:ground_pink_daffodil, byg:bookshelves, byg:aspen_logs, forge:glass_panes/purple, forge:glass/yellow, byg:ground_nightshade_sapling, locksmith:lockable, forge:wg_clay, druidcraft:rockroot_ores, minecraft:oak_logs, forge:storage_blocks/neptunium, byg:ground_pink_allium, byg:purple_sand, forge:ores/anthracite, forge:barrels, forge:wg_erodible, forge:pink_sand, byg:ground_golden_spined_cactus, forge:ores/lapis, forge:dirt, minecraft:bamboo_plantable_on, schoolsofmagic:twines, minecraft:pressure_plates, druidcraft:beams, create:windowable, minecraft:jungle_logs, byg:ground_zelkova_sapling, forge:chests/ender, forge:white_sand, forge:wg_dirt, byg:jacaranda_logs, adorn:wooden_platforms, minecraft:spruce_logs, byg:ground_red_maple_sapling, forge:fence_gates/wooden, forge:glass_panes/lime, create:windmill_sails, sereneseasons:spring_crops, forge:sand/blue, byg:ground_lolipop_flower, adorn:stone_platforms, minecraft:flowers, byg:ground_red_spruce_sapling, schoolsofmagic:mortars, minecraft:planks, forge:cobblestone, byg:cika_logs, byg:ground_orange_spruce_sapling, byg:ebony_logs, byg:ground_white_anemone, byg:ground_crocus, forge:storage_blocks/gold, forge:ores/pendorite, projectvibrantjourneys:juniper_logs, minecraft:fence_gates, forge:ores/ametrine, forge:ores, byg:ground_mahogany_sapling, adorn:kitchen_sinks, origins:cobwebs, forge:fences, forge:storage_blocks/diamond, byg:ground_firecracker_flower_bush, minecraft:nylium, byg:holly_logs, supplementaries:hang_from_ropes, adorn:drawers, supplementaries:bellows_tickable]
+[13:33:58] [main/INFO] [TerraForged/]: Tags Reloaded
+[13:33:58] [main/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [byg:pine_logs, forge:glass_panes/magenta, projectvibrantjourneys:sakura_logs, byg:ground_kovan_flower, byg:ground_maple_sapling, byg:ground_silver_vase_flower, forge:storage_blocks/netherite, forge:glass_panes/white, supplementaries:beams, forge:glass_panes/light_gray, byg:maple_logs, forge:storage_blocks/ametrine, byg:ground_green_tulip, minecraft:dragon_immune, farmersdelight:heat_sources, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:glass/red, byg:blue_sand, byg:ground_cypress_sapling, forge:glass_panes/green, carryon:block_blacklist, adorn:wooden_posts, minecraft:prevent_mob_spawning_inside, forge:flowers, forge:fiber, forge:chests/trapped, forge:fence_gates, snowrealmagic:bottom_snow, projectvibrantjourneys:palm_logs, forge:bushes, byg:ground_araucaria_sapling, byg:ground_pine_sapling, adorn:platforms, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, atmospheric:rosewood_logs, byg:ground_witch_hazel_sapling, projectvibrantjourneys:mangrove_logs, byg:ground_purple_sage, adorn:shelves, byg:willow_logs, byg:ground_orange_oak_sapling, forge:storage_blocks/lapis, minecraft:beds, forge:ores/diamond, minecraft:doors, forge:black_sand, minecraft:infiniburn_overworld, minecraft:flower_pots, supplementaries:posts, origins:unphasable, byg:ground_flowering_jacaranda_bush, schoolsofmagic:podiums, byg:ground_begonia, byg:ground_osiria_rose, byg:ground_orange_birch_sapling, byg:palo_verde_logs, forge:glass/white, forge:glass_panes/red, minecraft:signs, druidcraft:rockroot_blocks, farmersdelight:mushroom_colony_growable_on, minecraft:wither_summon_base_blocks, byg:fir_logs, minecraft:hoglin_repellents, byg:ground_california_poppy, byg:ground_mangrove_sapling, byg:ground_brown_birch_sapling, create:fan_transparent, byg:ground_orchard_sapling, forge:sand/colorless, atmospheric:yucca_plantable_on, quark:wooden_vertical_slabs, byg:ground_ebony_sapling, adorn:stone_steps, minecraft:soul_speed_blocks, byg:pink_sand, forge:storage_blocks/moonstone, tconstruct:slimy_logs, minecraft:walls, byg:ground_red_cornflower, minecraft:coral_blocks, forge:glass/green, byg:ground_rainbow_eucalyptus_sapling, atmospheric:aspen_logs, minecraft:underwater_bonemeals, schoolsofmagic:wartwood_logs, minecraft:impermeable, minecraft:sand, forge:end_stones, druidcraft:darkwood_logs, schoolsofmagic:acolyte_logs, byg:ground_mini_cactus, forge:wg_stone, supplementaries:walls, forge:fences/wooden, sereneseasons:summer_crops, forge:wg_sediment, minecraft:campfires, supplementaries:vine_support, forge:storage_blocks, minecraft:infiniburn_nether, projectvibrantjourneys:joshua_logs, forge:glass_panes/orange, atmospheric:grimwood_logs, forge:ores/quartz, byg:ground_red_oak_sapling, forge:glass/blue, byg:ground_silver_maple_sapling, forge:supports_beacon, byg:ground_skyris_sapling, forge:saplings, minecraft:wooden_trapdoors, create:valve_handles, forge:storage_blocks/coal, byg:imparius_stems, forge:glass/light_blue, forge:storage_blocks/redstone, byg:withering_oak_logs, adorn:wooden_steps, minecraft:stairs, sereneseasons:unbreakable_infertile_crops, minecraft:logs, byg:ground_pink_cherry_sapling, byg:ground_brown_zelkova_sapling, byg:ground_holly_sapling, byg:ground_pink_anemone, minecraft:valid_spawn, minecraft:mushroom_grow_block, minecraft:wooden_doors, sereneseasons:autumn_crops, forge:glass/purple, minecraft:crimson_stems, byg:ground_incan_lily, forge:purple_sand, quark:hedges, byg:embur_pedus, byg:black_sand, byg:ground_yellow_tulip, minecraft:beacon_base_blocks, byg:ground_red_birch_sapling, adorn:coffee_tables, projectvibrantjourneys:baobab_logs, minecraft:anvil, forge:sand, sereneseasons:greenhouse_glass, minecraft:wall_corals, forge:grass, adorn:posts, adorn:chairs, byg:ground_yellow_birch_sapling, byg:ground_yellow_spruce_sapling, forge:sand/purple, byg:ground_yellow_daffodil, byg:ground_torch_ginger, forge:ores/gold, byg:ground_azalea, snowrealmagic:containables, minecraft:piglin_repellents, byg:ground_delphinium, forge:glass/black, minecraft:portals, snowrealmagic:not_containables, byg:cherry_logs, forge:fences/nether_brick, adorn:sofas, forge:glass/lime, forge:chests/wooden, forge:ores/iron, adorn:kitchen_blocks, minecraft:wooden_stairs, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, byg:ground_iris, forge:storage_blocks/anthracite, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:mud_bricks, byg:ground_peach_leather_flower, byg:ground_brown_oak_sapling, byg:ground_joshua_sapling, byg:cypress_logs, minecraft:slabs, forge:ores/moonstone, minecraft:guarded_by_piglins, forge:ores/emerald, byg:ground_japanese_orchid, byg:ground_blue_spruce_sapling, projectvibrantjourneys:tamarack_logs, adorn:kitchen_counters, minecraft:buttons, minecraft:corals, adorn:chimneys, byg:ground_prickly_pear_cactus, byg:ground_green_enchanted_sapling, byg:green_enchanted_logs, adorn:tables, projectvibrantjourneys:redwood_logs, minecraft:rails, forge:barrels/wooden, minecraft:strider_warm_blocks, atmospheric:morado_logs, byg:bulbis_stems, byg:ground_palo_verde_sapling, byg:ground_indigo_jacaranda_sapling, projectvibrantjourneys:pine_logs, byg:ground_winter_succulent, minecraft:bee_growables, minecraft:wooden_pressure_plates, create:brittle, schoolsofmagic:jubilee_logs, minecraft:tall_flowers, byg:sythian_stems, forge:sand/black, druidcraft:fiery_glass_ores, forge:bookshelves, minecraft:stone_pressure_plates, supplementaries:concrete_powders, adorn:table_lamps, minecraft:gold_ores, byg:ground_lament_sapling, supplementaries:palisades, forge:glass_panes/pink, byg:ground_angelica, adorn:steps, forge:netherrack, adorn:kitchen_cupboards, create:non_movable, minecraft:soul_fire_base_blocks, neapolitan:vanilla_plantable_on, forge:crops/flax, adorn:benches, neapolitan:unaffected_by_mint, farmersdelight:unaffected_by_rich_soil, byg:ground_fir_sapling, byg:ground_purple_tulip, forge:gravel, forge:glass_panes/cyan, minecraft:wool, forge:glass/colorless, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, byg:ground_guzmania, forge:ores/zinc, forge:ores/netherite_scrap, minecraft:crops, forge:fiber/flax, byg:zelkova_logs, forge:stained_glass, schoolsofmagic:bastion_logs, forge:storage_blocks/amber, minecraft:warped_stems, passablefoliage:passables, byg:ground_lazarus_bellflower, forge:storage_blocks/iron, create:seats, forge:glass_panes/brown, projectvibrantjourneys:aspen_logs, byg:ground_tall_prairie_grass, create:wrench_pickup, forge:ores/lignite, minecraft:climbable, byg:ground_tall_allium, byg:ground_redwood_sapling, snowrealmagic:invalid_supporters, byg:ground_white_cherry_sapling, minecraft:dark_oak_logs, farmersdelight:compost_activators, quark:ladders, minecraft:coral_plants, farmersdelight:tray_heat_sources, forge:glass_panes, minecraft:non_flammable_wood, atmospheric:kousa_logs, forge:sand/pink, forge:blue_sand, projectvibrantjourneys:cottonwood_logs, adorn:stone_posts, byg:nightshade_logs, create:safe_nbt, byg:ground_violet_leather_flower, byg:ground_foxglove, supplementaries:pane_connection, byg:skyris_logs, minecraft:fences, minecraft:saplings, forge:ores/copper, minecraft:mineable/pickaxe, betteranimalsplus:butterfly_growables, minecraft:unstable_bottom_center, byg:white_sand, byg:ground_palm_sapling, minecraft:enderman_holdable, minecraft:banners, minecraft:wooden_fences, byg:ground_orange_daisy, minecraft:wall_post_override, byg:ground_magenta_tulip, forge:obsidian, forge:enderman_place_on_blacklist, byg:ground_alpine_bellflower, byg:ground_pink_orchid, byg:ground_baobab_sapling, byg:ground_tall_pink_allium, byg:ground_purple_orchid, supplementaries:pouring_tank, forge:glass/magenta, forge:ores/coal, minecraft:fire, minecraft:base_stone_nether, minecraft:wall_signs, quark:vertical_slabs, carryon:block_whitelist, forge:sand/white, forge:workbench, byg:ground_protea_flower, forge:storage_blocks/pendorite, druidcraft:elder_logs, byg:ground_flowering_indigo_jacaranda_bush, byg:ground_black_rose, minecraft:trapdoors, forge:glass/cyan, forge:glass, forge:storage_blocks/lignite, minecraft:leaves, byg:baobab_logs, forge:storage_blocks/brass, byg:ground_ether_sapling, byg:mangrove_logs, byg:witch_hazel_logs, forge:glass_panes/gray, minecraft:wither_immune, atmospheric:yucca_logs, minecraft:acacia_logs, byg:mahogany_logs, forge:stained_glass_panes, atmospheric:passion_vine_growable_on, forge:storage_blocks/zinc, forge:sand/red, byg:lament_logs, schoolsofmagic:evermore_logs, forge:glass/brown, byg:ground_blue_enchanted_sapling, byg:ground_jacaranda_sapling, create:sails, origins:natural_stone, minecraft:logs_that_burn, projectvibrantjourneys:fir_logs, forge:glass/gray, forge:glass/light_gray, byg:ground_blue_sage, minecraft:wooden_slabs, projectvibrantjourneys:willow_logs, create:toolboxes, minecraft:small_flowers, byg:ground_cika_sapling, forge:glass_panes/black, byg:ground_aspen_sapling, farmersdelight:wild_crops, byg:ground_willow_sapling, supplementaries:rope_support, sereneseasons:winter_crops, forge:glass_panes/blue, byg:ground_horseweed, supplementaries:water_holder, byg:redwood_logs, forge:ores/amber, forge:stone, byg:ground_withering_oak_sapling, byg:ether_logs, byg:rainbow_eucalyptus_logs, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, druidcraft:fiery_glass_blocks, byg:ground_white_sage, schoolsofmagic:teapots, projectvibrantjourneys:maple_logs, byg:ground_richea, byg:blue_enchanted_logs, minecraft:wart_blocks, schoolsofmagic:vermilion_logs, adorn:wooden_shelves, farmersdelight:heat_conductors, byg:palm_logs, neapolitan:chimpanzee_jumping_blocks, byg:ground_red_orchid, minecraft:shulker_boxes, byg:ground_bistort, minecraft:birch_logs, create:fan_heaters, byg:ground_rose, byg:ground_pink_daffodil, byg:bookshelves, byg:aspen_logs, forge:glass_panes/purple, forge:glass/yellow, byg:ground_nightshade_sapling, locksmith:lockable, forge:wg_clay, druidcraft:rockroot_ores, minecraft:oak_logs, forge:storage_blocks/neptunium, byg:ground_pink_allium, byg:purple_sand, forge:ores/anthracite, forge:barrels, forge:wg_erodible, forge:pink_sand, byg:ground_golden_spined_cactus, forge:ores/lapis, forge:dirt, minecraft:bamboo_plantable_on, schoolsofmagic:twines, minecraft:pressure_plates, druidcraft:beams, create:windowable, minecraft:jungle_logs, byg:ground_zelkova_sapling, forge:chests/ender, forge:white_sand, forge:wg_dirt, byg:jacaranda_logs, adorn:wooden_platforms, minecraft:spruce_logs, byg:ground_red_maple_sapling, forge:fence_gates/wooden, forge:glass_panes/lime, create:windmill_sails, sereneseasons:spring_crops, forge:sand/blue, byg:ground_lolipop_flower, adorn:stone_platforms, minecraft:flowers, byg:ground_red_spruce_sapling, schoolsofmagic:mortars, minecraft:planks, forge:cobblestone, byg:cika_logs, byg:ground_orange_spruce_sapling, byg:ebony_logs, byg:ground_white_anemone, byg:ground_crocus, forge:storage_blocks/gold, forge:ores/pendorite, projectvibrantjourneys:juniper_logs, minecraft:fence_gates, forge:ores/ametrine, forge:ores, byg:ground_mahogany_sapling, adorn:kitchen_sinks, origins:cobwebs, forge:fences, forge:storage_blocks/diamond, byg:ground_firecracker_flower_bush, minecraft:nylium, byg:holly_logs, supplementaries:hang_from_ropes, adorn:drawers, supplementaries:bellows_tickable]
+[13:33:59] [main/INFO] [TerraForged/]: Loading strata base decorator
+[13:34:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[13:34:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13:34:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13:34:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13:34:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[13:34:11] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[13:34:11] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:34:11] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13:34:11] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:34:11] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:34:11] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-964 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.33)
+[13:34:15] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[13:34:15] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[13:34:15] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[13:34:23] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins\worldguard-bukkit-7.0.7-dist.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.17
+	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:326) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:140) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:393) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:386) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[13:34:23] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading LuckPerms v5.4.9
+[13:34:27] [Server thread/INFO] [net.skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Loading SkinsRestorer v14.1.15
+[13:34:27] [Server thread/INFO] [com.songoda.ultimateclaims.UltimateClaims/]: [UltimateClaims] Loading UltimateClaims v1.9.0
+[13:34:27] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[13:34:39] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@60830a96]
+[13:34:39] [Server thread/INFO] [com.songoda.ultimatemoderation.UltimateModeration/]: [UltimateModeration] Loading UltimateModeration v2.0.9
+[13:34:39] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit/]: [Chunky] Loading Chunky v1.2.164
+[13:34:39] [Server thread/INFO] [org.popcraft.chunkyborder.ChunkyBorderBukkit/]: [ChunkyBorder] Loading ChunkyBorder v1.0.64
+[13:34:39] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Loading PvPManager v3.9.4
+[13:34:39] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Enabling LuckPerms v5.4.9
+[13:34:47] [Server thread/INFO] [/]:         __    
+[13:34:47] [Server thread/INFO] [/]:   |    |__)   LuckPerms v5.4.9
+[13:34:47] [Server thread/INFO] [/]:   |___ |      Running on Bukkit - Mohist
+[13:34:47] [Server thread/INFO] [/]: 
+[13:34:47] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading configuration...
+[13:34:53] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading storage provider... [H2]
+[13:35:04] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading internal permission managers...
+[13:35:07] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Performing initial data load...
+[13:35:10] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Successfully enabled. (took 30950ms)
+[13:35:10] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[13:35:10] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:35:10] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+[13:35:19] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  WorldEdit works better if you use Paper 
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  as your server software. 
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper offers significant performance improvements,
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  bug fixes, security enhancements and optional
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  features for server owners to enhance their server.
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  better at diagnosing lag problems over v1.
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  All of your plugins should still work, and the
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[13:35:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[13:35:24] [Server thread/INFO] [/]: [byg:pine_logs, forge:glass_panes/magenta, projectvibrantjourneys:sakura_logs, byg:ground_kovan_flower, byg:ground_maple_sapling, byg:ground_silver_vase_flower, forge:storage_blocks/netherite, forge:glass_panes/white, supplementaries:beams, forge:glass_panes/light_gray, byg:maple_logs, forge:storage_blocks/ametrine, byg:ground_green_tulip, minecraft:dragon_immune, farmersdelight:heat_sources, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:glass/red, byg:blue_sand, byg:ground_cypress_sapling, forge:glass_panes/green, carryon:block_blacklist, adorn:wooden_posts, minecraft:prevent_mob_spawning_inside, forge:flowers, forge:fiber, forge:chests/trapped, forge:fence_gates, snowrealmagic:bottom_snow, projectvibrantjourneys:palm_logs, forge:bushes, byg:ground_araucaria_sapling, byg:ground_pine_sapling, adorn:platforms, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, atmospheric:rosewood_logs, byg:ground_witch_hazel_sapling, projectvibrantjourneys:mangrove_logs, byg:ground_purple_sage, adorn:shelves, byg:willow_logs, byg:ground_orange_oak_sapling, forge:storage_blocks/lapis, minecraft:beds, forge:ores/diamond, minecraft:doors, forge:black_sand, minecraft:infiniburn_overworld, minecraft:flower_pots, supplementaries:posts, origins:unphasable, byg:ground_flowering_jacaranda_bush, schoolsofmagic:podiums, byg:ground_begonia, byg:ground_osiria_rose, byg:ground_orange_birch_sapling, byg:palo_verde_logs, forge:glass/white, forge:glass_panes/red, minecraft:signs, druidcraft:rockroot_blocks, farmersdelight:mushroom_colony_growable_on, minecraft:wither_summon_base_blocks, byg:fir_logs, minecraft:hoglin_repellents, byg:ground_california_poppy, byg:ground_mangrove_sapling, byg:ground_brown_birch_sapling, create:fan_transparent, byg:ground_orchard_sapling, forge:sand/colorless, atmospheric:yucca_plantable_on, quark:wooden_vertical_slabs, byg:ground_ebony_sapling, adorn:stone_steps, minecraft:soul_speed_blocks, byg:pink_sand, forge:storage_blocks/moonstone, tconstruct:slimy_logs, minecraft:walls, byg:ground_red_cornflower, minecraft:coral_blocks, forge:glass/green, byg:ground_rainbow_eucalyptus_sapling, atmospheric:aspen_logs, minecraft:underwater_bonemeals, schoolsofmagic:wartwood_logs, minecraft:impermeable, minecraft:sand, forge:end_stones, druidcraft:darkwood_logs, schoolsofmagic:acolyte_logs, byg:ground_mini_cactus, forge:wg_stone, supplementaries:walls, forge:fences/wooden, sereneseasons:summer_crops, forge:wg_sediment, minecraft:campfires, supplementaries:vine_support, forge:storage_blocks, minecraft:infiniburn_nether, projectvibrantjourneys:joshua_logs, forge:glass_panes/orange, atmospheric:grimwood_logs, forge:ores/quartz, byg:ground_red_oak_sapling, forge:glass/blue, byg:ground_silver_maple_sapling, forge:supports_beacon, byg:ground_skyris_sapling, forge:saplings, minecraft:wooden_trapdoors, create:valve_handles, forge:storage_blocks/coal, byg:imparius_stems, forge:glass/light_blue, forge:storage_blocks/redstone, byg:withering_oak_logs, adorn:wooden_steps, minecraft:stairs, sereneseasons:unbreakable_infertile_crops, minecraft:logs, byg:ground_pink_cherry_sapling, byg:ground_brown_zelkova_sapling, byg:ground_holly_sapling, byg:ground_pink_anemone, minecraft:valid_spawn, minecraft:mushroom_grow_block, minecraft:wooden_doors, sereneseasons:autumn_crops, forge:glass/purple, minecraft:crimson_stems, byg:ground_incan_lily, forge:purple_sand, quark:hedges, byg:embur_pedus, byg:black_sand, byg:ground_yellow_tulip, minecraft:beacon_base_blocks, byg:ground_red_birch_sapling, adorn:coffee_tables, projectvibrantjourneys:baobab_logs, minecraft:anvil, forge:sand, sereneseasons:greenhouse_glass, minecraft:wall_corals, forge:grass, adorn:posts, adorn:chairs, byg:ground_yellow_birch_sapling, byg:ground_yellow_spruce_sapling, forge:sand/purple, byg:ground_yellow_daffodil, byg:ground_torch_ginger, forge:ores/gold, byg:ground_azalea, snowrealmagic:containables, minecraft:piglin_repellents, byg:ground_delphinium, forge:glass/black, minecraft:portals, snowrealmagic:not_containables, byg:cherry_logs, forge:fences/nether_brick, adorn:sofas, forge:glass/lime, forge:chests/wooden, forge:ores/iron, adorn:kitchen_blocks, minecraft:wooden_stairs, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, byg:ground_iris, forge:storage_blocks/anthracite, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:mud_bricks, byg:ground_peach_leather_flower, byg:ground_brown_oak_sapling, byg:ground_joshua_sapling, byg:cypress_logs, minecraft:slabs, forge:ores/moonstone, minecraft:guarded_by_piglins, forge:ores/emerald, byg:ground_japanese_orchid, byg:ground_blue_spruce_sapling, projectvibrantjourneys:tamarack_logs, adorn:kitchen_counters, minecraft:buttons, minecraft:corals, adorn:chimneys, byg:ground_prickly_pear_cactus, byg:ground_green_enchanted_sapling, byg:green_enchanted_logs, adorn:tables, projectvibrantjourneys:redwood_logs, minecraft:rails, forge:barrels/wooden, minecraft:strider_warm_blocks, atmospheric:morado_logs, byg:bulbis_stems, byg:ground_palo_verde_sapling, byg:ground_indigo_jacaranda_sapling, projectvibrantjourneys:pine_logs, byg:ground_winter_succulent, minecraft:bee_growables, minecraft:wooden_pressure_plates, create:brittle, schoolsofmagic:jubilee_logs, minecraft:tall_flowers, byg:sythian_stems, forge:sand/black, druidcraft:fiery_glass_ores, forge:bookshelves, minecraft:stone_pressure_plates, supplementaries:concrete_powders, adorn:table_lamps, minecraft:gold_ores, byg:ground_lament_sapling, supplementaries:palisades, forge:glass_panes/pink, byg:ground_angelica, adorn:steps, forge:netherrack, adorn:kitchen_cupboards, create:non_movable, minecraft:soul_fire_base_blocks, neapolitan:vanilla_plantable_on, forge:crops/flax, adorn:benches, neapolitan:unaffected_by_mint, farmersdelight:unaffected_by_rich_soil, byg:ground_fir_sapling, byg:ground_purple_tulip, forge:gravel, forge:glass_panes/cyan, minecraft:wool, forge:glass/colorless, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, byg:ground_guzmania, forge:ores/zinc, forge:ores/netherite_scrap, minecraft:crops, forge:fiber/flax, byg:zelkova_logs, forge:stained_glass, schoolsofmagic:bastion_logs, forge:storage_blocks/amber, minecraft:warped_stems, passablefoliage:passables, byg:ground_lazarus_bellflower, forge:storage_blocks/iron, create:seats, forge:glass_panes/brown, projectvibrantjourneys:aspen_logs, byg:ground_tall_prairie_grass, create:wrench_pickup, forge:ores/lignite, minecraft:climbable, byg:ground_tall_allium, byg:ground_redwood_sapling, snowrealmagic:invalid_supporters, byg:ground_white_cherry_sapling, minecraft:dark_oak_logs, farmersdelight:compost_activators, quark:ladders, minecraft:coral_plants, farmersdelight:tray_heat_sources, forge:glass_panes, minecraft:non_flammable_wood, atmospheric:kousa_logs, forge:sand/pink, forge:blue_sand, projectvibrantjourneys:cottonwood_logs, adorn:stone_posts, byg:nightshade_logs, create:safe_nbt, byg:ground_violet_leather_flower, byg:ground_foxglove, supplementaries:pane_connection, byg:skyris_logs, minecraft:fences, minecraft:saplings, forge:ores/copper, minecraft:mineable/pickaxe, betteranimalsplus:butterfly_growables, minecraft:unstable_bottom_center, byg:white_sand, byg:ground_palm_sapling, minecraft:enderman_holdable, minecraft:banners, minecraft:wooden_fences, byg:ground_orange_daisy, minecraft:wall_post_override, byg:ground_magenta_tulip, forge:obsidian, forge:enderman_place_on_blacklist, byg:ground_alpine_bellflower, byg:ground_pink_orchid, byg:ground_baobab_sapling, byg:ground_tall_pink_allium, byg:ground_purple_orchid, supplementaries:pouring_tank, forge:glass/magenta, forge:ores/coal, minecraft:fire, minecraft:base_stone_nether, minecraft:wall_signs, quark:vertical_slabs, carryon:block_whitelist, forge:sand/white, forge:workbench, byg:ground_protea_flower, forge:storage_blocks/pendorite, druidcraft:elder_logs, byg:ground_flowering_indigo_jacaranda_bush, byg:ground_black_rose, minecraft:trapdoors, forge:glass/cyan, forge:glass, forge:storage_blocks/lignite, minecraft:leaves, byg:baobab_logs, forge:storage_blocks/brass, byg:ground_ether_sapling, byg:mangrove_logs, byg:witch_hazel_logs, forge:glass_panes/gray, minecraft:wither_immune, atmospheric:yucca_logs, minecraft:acacia_logs, byg:mahogany_logs, forge:stained_glass_panes, atmospheric:passion_vine_growable_on, forge:storage_blocks/zinc, forge:sand/red, byg:lament_logs, schoolsofmagic:evermore_logs, forge:glass/brown, byg:ground_blue_enchanted_sapling, byg:ground_jacaranda_sapling, create:sails, origins:natural_stone, minecraft:logs_that_burn, projectvibrantjourneys:fir_logs, forge:glass/gray, forge:glass/light_gray, byg:ground_blue_sage, minecraft:wooden_slabs, projectvibrantjourneys:willow_logs, create:toolboxes, minecraft:small_flowers, byg:ground_cika_sapling, forge:glass_panes/black, byg:ground_aspen_sapling, farmersdelight:wild_crops, byg:ground_willow_sapling, supplementaries:rope_support, sereneseasons:winter_crops, forge:glass_panes/blue, byg:ground_horseweed, supplementaries:water_holder, byg:redwood_logs, forge:ores/amber, forge:stone, byg:ground_withering_oak_sapling, byg:ether_logs, byg:rainbow_eucalyptus_logs, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, druidcraft:fiery_glass_blocks, byg:ground_white_sage, schoolsofmagic:teapots, projectvibrantjourneys:maple_logs, byg:ground_richea, byg:blue_enchanted_logs, minecraft:wart_blocks, schoolsofmagic:vermilion_logs, adorn:wooden_shelves, farmersdelight:heat_conductors, byg:palm_logs, neapolitan:chimpanzee_jumping_blocks, byg:ground_red_orchid, minecraft:shulker_boxes, byg:ground_bistort, minecraft:birch_logs, create:fan_heaters, byg:ground_rose, byg:ground_pink_daffodil, byg:bookshelves, byg:aspen_logs, forge:glass_panes/purple, forge:glass/yellow, byg:ground_nightshade_sapling, locksmith:lockable, forge:wg_clay, druidcraft:rockroot_ores, minecraft:oak_logs, forge:storage_blocks/neptunium, byg:ground_pink_allium, byg:purple_sand, forge:ores/anthracite, forge:barrels, forge:wg_erodible, forge:pink_sand, byg:ground_golden_spined_cactus, forge:ores/lapis, forge:dirt, minecraft:bamboo_plantable_on, schoolsofmagic:twines, minecraft:pressure_plates, druidcraft:beams, create:windowable, minecraft:jungle_logs, byg:ground_zelkova_sapling, forge:chests/ender, forge:white_sand, forge:wg_dirt, byg:jacaranda_logs, adorn:wooden_platforms, minecraft:spruce_logs, byg:ground_red_maple_sapling, forge:fence_gates/wooden, forge:glass_panes/lime, create:windmill_sails, sereneseasons:spring_crops, forge:sand/blue, byg:ground_lolipop_flower, adorn:stone_platforms, minecraft:flowers, byg:ground_red_spruce_sapling, schoolsofmagic:mortars, minecraft:planks, forge:cobblestone, byg:cika_logs, byg:ground_orange_spruce_sapling, byg:ebony_logs, byg:ground_white_anemone, byg:ground_crocus, forge:storage_blocks/gold, forge:ores/pendorite, projectvibrantjourneys:juniper_logs, minecraft:fence_gates, forge:ores/ametrine, forge:ores, byg:ground_mahogany_sapling, adorn:kitchen_sinks, origins:cobwebs, forge:fences, forge:storage_blocks/diamond, byg:ground_firecracker_flower_bush, minecraft:nylium, byg:holly_logs, supplementaries:hang_from_ropes, adorn:drawers, supplementaries:bellows_tickable]
+[13:35:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13:35:27] [Server thread/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method func_177480_a in sulfuric.mixins.json:chunk.MixinChunkNibbleArray cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[13:35:27] [Server thread/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method func_177482_a in sulfuric.mixins.json:chunk.MixinChunkNibbleArray cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[13:35:29] [Server thread/ERROR] [com.sk89q.worldedit.util.eventbus.EventBus/]: Could not dispatch event: com.sk89q.worldedit.event.platform.PlatformReadyEvent@70822c5 to handler EventHandler{priority=NORMAL}
+java.lang.reflect.InvocationTargetException: null
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:75) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.setupWorldData(WorldEditPlugin.java:206) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.access$100(WorldEditPlugin.java:101) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin$WorldInitListener.onWorldInit(WorldEditPlugin.java:526) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[forge:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:594) ~[forge:?]
+	at net.minecraft.server.MinecraftServer.func_240787_a_(MinecraftServer.java:427) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240800_l__(MinecraftServer.java:349) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:220) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.IllegalStateException: BlockState minecraft:grass_block[snowy=true] is using the same block ID (8) as BlockState adorn:bygbulbis_platform
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:738) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.sk89q.worldedit.internal.block.BlockStateIdAccess.register(BlockStateIdAccess.java:92) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.Capability$4.ready(Capability.java:99) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.lambda$handleNewPlatformReady$0(PlatformManager.java:330) ~[?:?]
+	at java.util.Map.forEach(Map.java:663) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformManager.handleNewPlatformReady(PlatformManager.java:330) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.MethodHandleEventHandler.dispatch(MethodHandleEventHandler.java:51) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	... 19 more
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.talhanation.smallships.entities.AbstractSailBoat from class com.talhanation.smallships.entities.AbstractBannerUser
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractCogEntity from class com.talhanation.smallships.entities.CogEntity
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractGalleyEntity from class com.talhanation.smallships.entities.GalleyEntity
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractWarGalleyEntity from class com.talhanation.smallships.entities.WarGalleyEntity
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractDrakkarEntity from class com.talhanation.smallships.entities.DrakkarEntity
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.talhanation.smallships.entities.AbstractRowBoatEntity from class com.talhanation.smallships.entities.RowBoatEntity
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractBriggEntity from class com.talhanation.smallships.entities.BriggEntity
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractDhowEntity from class com.talhanation.smallships.entities.DhowEntity
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityLammergeier from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityTarantula from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityGoat from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityPheasant from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySquirrel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySongbird from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBadger from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityHorseshoeCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityHorseshoeCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityShark from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityTurkey from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBobbitWorm from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityGoose from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityWhale from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityOctopus from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBearNeutral from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityDeer from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFeralWolf from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFeralWolf from class dev.itsmeow.betteranimalsplus.common.entity.EntityCoyote
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityReindeer from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBoar from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityLamprey from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityLamprey from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityMoose from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFreshwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFreshwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySaltwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySaltwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityButterfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityButterfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityDragonfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityDragonfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBarracuda from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityPiranha from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[13:35:31] [Server thread/INFO] [com.litewolf101.illagers_plus.IllagersPlus/]: Added Illagers to Raids
+[13:35:31] [Server thread/INFO] [com.litewolf101.illagers_plus.IllagersPlus/]: Added Illagers to Raids
+[13:35:31] [Server thread/INFO] [com.litewolf101.illagers_plus.IllagersPlus/]: Added Illagers to Raids
+[13:35:31] [Server thread/INFO] [net.skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Enabling SkinsRestorer v14.1.15
+[13:35:34] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_16_R3[32;1m, using [33;1mSpigotSkinRefresher[32;1m.[0;39m
+[13:35:36] [Server thread/INFO] [SkinsRestorer/]: [ACF] Enabled Asynchronous Tab Completion Support!
+[13:35:37] [Server thread/INFO] [com.songoda.ultimateclaims.UltimateClaims/]: [UltimateClaims] Enabling UltimateClaims v1.9.0
+[13:35:37] [Server thread/INFO] [/]:  
+[13:35:37] [Server thread/INFO] [/]: =============================
+[13:35:37] [Server thread/INFO] [/]: UltimateClaims 1.9.0 by Songoda <3!
+[13:35:37] [Server thread/INFO] [/]: Action: Enabling...
+[13:35:37] [Server thread/INFO] [com.songoda.ultimateclaims.UltimateClaims/]: [UltimateClaims] Loaded locale "en_US"
+[13:35:39] [Server thread/INFO] [SongodaCore/]: [SongodaCore] Hooked UltimateClaims.
+[13:35:40] [Server thread/INFO] [/]: =============================
+[13:35:40] [Server thread/INFO] [/]:  
+[13:35:40] [Server thread/INFO] [com.songoda.ultimatemoderation.UltimateModeration/]: [UltimateModeration] Enabling UltimateModeration v2.0.9
+[13:35:40] [Server thread/INFO] [/]:  
+[13:35:40] [Server thread/INFO] [/]: =============================
+[13:35:40] [Server thread/INFO] [/]: UltimateModeration 2.0.9 by Songoda <3!
+[13:35:40] [Server thread/INFO] [/]: Action: Enabling...
+[13:35:40] [Server thread/INFO] [com.songoda.ultimatemoderation.UltimateModeration/]: [UltimateModeration] Loaded locale "en_US"
+[13:35:41] [Server thread/INFO] [SongodaCore/]: [SongodaCore] Hooked UltimateModeration.
+[13:35:42] [Server thread/INFO] [com.songoda.ultimatemoderation.UltimateModeration/]: [UltimateModeration] Data handler connected using SQLite.
+[13:35:42] [Server thread/INFO] [/]: =============================
+[13:35:42] [Server thread/INFO] [/]:  
+[13:35:42] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit/]: [Chunky] Enabling Chunky v1.2.164
+[13:35:43] [Server thread/INFO] [org.popcraft.chunkyborder.ChunkyBorderBukkit/]: [ChunkyBorder] Enabling ChunkyBorder v1.0.64
+[13:35:43] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Enabling PvPManager v3.9.4
+[13:35:43] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Loaded 0 players from users file
+[13:35:43] [Server thread/WARN] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Vault not found! Features requiring Vault won't work!
+[13:35:44] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] PvPManager Enabled (584 ms)
+[13:35:44] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[13:35:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13:35:48] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[13:35:56] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[13:35:57] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[13:35:57] [Server thread/INFO] [com.litewolf101.illagers_plus.IllagersPlus/]: Added Illagers to Raids
+[13:35:57] [Server thread/INFO] [com.litewolf101.illagers_plus.IllagersPlus/]: Added Illagers to Raids
+[13:35:57] [Server thread/INFO] [com.litewolf101.illagers_plus.IllagersPlus/]: Added Illagers to Raids
+[13:35:57] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 12,443 ms
+[13:35:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (33.295s)! For help, type "help"
+[13:35:58] [Server thread/WARN] [net.minecraftforge.server.permission.PermissionAPI/]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with com.mohistmc.forge.BukkitPermissionsHandler
+[13:35:58] [Server thread/INFO] [com.hugomage.redpandas.RedPandas/]: HELLO from server starting
+[13:35:58] [Server thread/INFO] [Spartan Weaponry/]: Starting up Server for Spartan Weaponry!
+[13:35:58] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(offhandcombat)
+[13:35:58] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand(flywheel)
+[13:35:58] [Server thread/WARN] [voicechat/]: Running in offline mode - Voice chat encryption is not secure!
+[13:35:58] [Server thread/INFO] [voicechat/]: Using default voicechat socket implementation
+[13:35:58] [Server thread/INFO] [Minecraft/]: Timings Reset
+[13:35:58] [VoiceChatServerThread/INFO] [voicechat/]: Server started at port 24454
+[13:35:58] [Craft Scheduler Thread - 8/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Checking for updates...
+[13:35:59] [Craft Scheduler Thread - 8/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] No update found
+[13:35:59] [Server thread/INFO] [com.songoda.ultimateclaims.UltimateClaims/]: [UltimateClaims] Data handler connected using SQLite.
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.1.15[0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[13:36:00] [Craft Scheduler Thread - 4/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:36:28] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player hadasfadaa is f8c57301-78a9-375a-8a14-4499f2b43da3
+[13:36:28] [Netty Server IO #2/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 136 mods : dynamiclightsreforged, secondchanceforge, auudio, unionlib, flashnpcs, transliterationlib, locksmith, additionalbanners, torohealth, villagernames, terraforged, xaeroworldmap, controlling, farmersdelightintegrations, yungsapi, improvedbackpacks, bookshelf, lootbeams, guardvillagers, randompatches, magnesium, pickupnotifier, litematica, snowrealmagic, fpsreducer, carryon, jeresources, revampedwolf, supplementaries, konkrete, corpse, advancementplaques, tinyskeletons, chocolate, mcwbridges, farmersdelight, cleancut, redpandas, bcc, fastfurnaceminusreplacement, simpleshops, projectvibrantjourneys, medievalmusic, spark, schoolsofmagic, origins, collective, survive, malilib, just_enough_keg, eatinganimation, spartanweaponry, architectury, aiimprovements, adorn, cloth-config, fastbenchminusreplacement, fallingtree, smallships, controllable, geckolib3, bettermodsbutton, kiwi, betteranimationscollection, configmenusforge, xlpackets, jei, furnish, druidcraft, visualworkbench, abnormals_core, simplerpc, caelus, paxi, extraboats, passablefoliage, fallingleaves, clumps, comforts, tumbleweed, sereneseasons, betteranimalsplus, badmobs, sulfuric, jeitweaker, magnesium_extras, crafttweaker, firstaid, forge, waddles, travelerstitles, offhandcombat, neapolitan, emotecraft, dsurround, sndctrl, environs, mobeffects, selene, minecraft, voicechat, enchdesc, pollen, mousetweaks, firstpersonmod, farmersdelightintegration, astikorcarts, personality, atmospheric, paintings, jeiintegration, notenoughanimations, iceberg, flywheel, create, spartanshields, moreplayermodels, polymorph, kryptonreforged, justenoughprofessions, autoreglib, inventoryhud, norecipeadvancements, fancymenu, drippyloadingscreen, morecropsbydaleeny, appleskin, ferritecore, puzzleslib, byg, aquaculture, illagers_plus, overloadedarmorbar, loadmyresources, nature_expansion, drinkbeer
+[13:36:34] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@68bc312c
+[13:36:35] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: hadasfadaa[/95.10.207.238:14845] logged in with entity id 367 at (1,742.902, 71.024, -5,040.59)
+[13:36:36] [Server thread/INFO] [/]: Quest Data sent For: hadasfadaa, To: all tracking, Reason: join game
+[13:36:36] [Server thread/INFO] [/]: Magic Data sent For: hadasfadaa, To: all tracking, Reason: join game
+[13:36:36] [Server thread/INFO] [survive/]: Syncing Armor Data To Client (hadasfadaa)
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chest_minecart from 1394383d-b396-4fc0-a777-2ba2c04f6db4 to baaa8bae-2ee0-43fa-b3fa-8fac085e9a4d
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 22160f8a-a0e3-4a4c-9f69-47b18888203a to 12a9bce8-1891-493b-86cf-938539eb1b5c
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 77842909-4e9c-4c7e-a178-95dfb324e220 to aa33421b-5ab4-430e-b83e-848be1de45f3
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 80c67478-e36f-4b1a-9042-2d6ee4088caf to e7bb5ca8-bd4c-4621-8127-753ee69e02e8
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from ea8090a6-757a-41d9-9579-59c7d4b81950 to 6df20740-24d9-4160-9ade-921d3e036d18
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from bb57a3e0-0717-4693-b02c-a5f3b869026f to 79a1f393-dc25-4b9a-a90b-3879d34a01ab
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 4ccad7f7-5ea7-4585-9458-9c48ed91c01d to 24952f4e-24c2-4764-8361-2692768b109c
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from b173ffab-ef79-4b80-aee5-8ea371ee294a to 75eaa443-4494-413d-a334-18e145613178
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 21cc1ecb-f756-437c-bb6d-167ec0341ee0 to 6746e7e8-6ce9-4bf2-8817-68b173c7c065
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from d00fead0-67c2-46cc-831f-9d2d54e42427 to edfe0e04-8a83-4f44-afc0-7ff3eb06a765
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 851e8d96-295c-451d-a41e-eb946b2782b1 to fefb72a8-f3b0-4cc7-897c-36528abaf7dc
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 7e3c03b3-57b4-4d6c-83e9-ff105981506d to f707af5c-cc4b-4f0c-b9f4-6b866a11184f
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 236944c7-d23f-4f3b-80db-af64bdd83a66 to ce5c2f9c-05e4-4702-8204-72e5bd4d8a6e
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 67c3a019-b052-4ed5-9fbd-ee6bb1d6b93a to b9771881-ee18-4b99-b030-243fba0d8d53
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 37e82b14-8ad6-4ac3-af1d-dceeb375b08e to f91977c1-fce6-4fa7-893a-a5eb3b79200c
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 3af0db60-7f39-4432-be27-bb657364ab66 to 7b84eddc-e2cd-420f-b697-441c03342856
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 4f4d2742-57b8-4af3-9b28-6ee5de89342b to e0ad478f-f0b9-4c1f-8a3f-e9784c74c1ab
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from c453e4ca-4eea-446d-ab06-312731b11141 to 7565ba8c-bcc0-423a-9c22-0cea4880f87f
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from a46ad6ad-5b80-4a16-8dda-c145907c653c to c5d8b96e-2484-4ab6-970c-28b5d73675c5
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from a65323b5-c4a6-498c-b2c6-a2797c1a3b4f to a91492e6-6b09-4f07-b713-0ecdf762deb7
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from ef1faaa5-8e96-4ef3-8038-e86e04f06d3b to bd665039-7a36-4b1c-9307-ae6399dbecd7
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:zombie from b2bfb0bc-a7b5-487b-a4d3-9e264e8885b1 to 8adf86ed-3a24-4f09-b30b-1ebf93b28230
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from a07de884-5617-4f7f-9002-624df45287c8 to 2dfb11c1-505f-46e5-a8d8-0351bfcc3de1
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from 626d94f1-db16-4597-af3c-ed8f4907dfb9 to 031fe4de-692e-4cf5-a835-9d0a1ae354db
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from 577c5b4b-c310-46e7-84ea-547da63099c0 to 3c00714b-cb7a-4a09-a07a-1ce6eea4b2e9
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from 59b00844-0deb-4852-a3b9-4d2a41d3efcf to 34c84ba7-66f8-4826-8847-0bce65a0a7f0
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chest_minecart from a99aeb13-e10c-421c-b5e9-d133de21c30c to 5ff10a10-b221-4b64-b403-db9c1242a578
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from dad45471-0461-484b-ba91-7151fd836d9e to 7fb28d69-94b8-4519-8b47-f57dc348d06a
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 29a9999c-5d7e-4f04-a5b5-9d7f0b9896e2 to e29229bd-b204-4537-b2a6-d97f287c6b1b
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 2f2aaff1-cacc-43b6-939b-54e979dfca54 to 68d761fe-be1b-4df2-8b66-236246f85b88
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 6a852db9-a8d9-42e2-ac40-4d2b7472a3b3 to 21e42af3-198a-4da5-9ace-88b10d5b51e3
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 8d8f9235-6bac-4f2a-afb0-7cd0ecfb7f19 to 6dd9e96e-d0ea-42f6-ac46-2414c217534e
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 3faadfe1-ef42-4a47-bf12-3556e7dfc85b to 50d39fc4-d06e-4f37-9573-a1e7d0e8ace5
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 81a4a819-92ae-4167-96ff-18fa82ace49f to 4c90fe79-c0a4-4b0f-bf8f-2208349a9302
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 17f0ce42-a0a9-4a44-94bd-c949b4ab60dc to daf54c3b-9fdb-4159-a5fe-e2ee6fdff0bb
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from d1ac0e73-3b1d-43d1-9d32-66cb56e96d3e to f2785911-eca5-444b-95ab-09fd8f6b2baf
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 5c1c416e-91fc-4b1d-91ee-9154b24214c3 to b4d6f0d4-a8c0-40db-b355-1d1fe0d7e002
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from bd44377b-1405-412c-a622-c74ac21cca4c to 1b3380dd-d1c9-445d-8ef5-018e01a5d8a5
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from cfe1eaf6-d187-4a5e-afd5-1292e4460c1a to a8aee500-3d62-4870-87e6-93ef47b4c7da
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from ad912493-e22b-427b-9389-71518c507ac0 to a08c8fb8-4aa3-491b-8ed0-2da4ada483f7
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 519a5da2-7874-469a-b833-b1087fed8931 to 1e7481a3-3173-4932-87db-ab61c975cc69
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 53cc66e0-3424-407a-9a17-89dc641a75ed to a198c42f-23ae-48fe-a760-c9008f03dafb
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 57818f46-c73a-4875-b0e1-b71f33af1790 to f5ab5b95-1a29-431c-a5b8-e692eaaf4558
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 67a82b68-4a68-4ea3-acc9-d0028c1018a4 to f1ece406-531b-43a5-b1e1-8ab68f16f2ce
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from caeb43ab-0666-42e1-974a-6d8c30656ca6 to c66b4e23-e615-4d8f-8f14-362d9b442a54
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:zombie from 489bb690-cec8-44fe-943c-f75b2ffe9db7 to b50b6eb2-b61a-4252-8ccf-5cad417afcce
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:zombie from 019e6692-268e-4da7-b278-0df8a20f44b7 to 466f558f-aaca-4fce-a435-96f512308f8e
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:clam from aa030e6f-de86-41d9-928e-9b6462e7538c to a5769fe0-cfc6-486b-a665-622086bd0b1e
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:item from 4af846dd-04fb-4277-be21-da6ebcf4a3ab to 9e35398c-8486-4981-8ebd-003e6477323c
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from 01827e61-1638-45d0-bea1-7449fe8290c0 to 4a1041ed-a80e-43fa-8f23-4e205f43e525
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:creeper from 3b8f3ffb-9c7a-4f94-aad2-14509ed272a9 to 317807c4-ea68-4b36-b4a7-a27352841516
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from 6335ef4c-17a3-40a2-9210-d54300d718f5 to 47b1506d-9346-4e2e-8d58-0a0f8cefec0f
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:zombie from b58338e6-a4a2-4bc6-87a1-cf03bad7a6e1 to bd8f5e53-e7ee-4edb-964e-75911f962cd9
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:zombie from b57af661-4e76-4981-9698-f9bd52f4a37b to 10236aa6-5d3d-4bd8-8fea-ac263e230f4a
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from 873153cf-172f-4b74-914d-0383036cdf98 to b77d864a-42cb-4046-9f38-17aa67021cc8
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from d3e974ba-dc54-46eb-adc6-df6acd1d2957 to 6ae61611-0cf5-4def-abdb-bdf0e122d10b
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:bat from f392dc3d-840f-4061-96ff-aae8968e8242 to 82b65e2c-b242-45ad-92d7-fb62cb600326
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:creeper from bb88c91c-28f3-46e2-8131-1bb17b31f16a to b769d0df-386e-420c-8538-d2cd6b065ac7
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:creeper from 88d4b35d-dedc-4b8d-bc9c-903cc6dc534b to 70e91473-f39e-482e-8794-e6760bf655bd
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from ca84af32-8619-4bb3-9591-ecfc54245483 to 53aaf470-aa14-42ef-a17c-6e70d1a2a1ba
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 5762db59-fa3d-4288-a30b-a5234383247b to 7a56b20c-b579-4c48-93b0-c03084f3ce5a
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from fd6f3303-01fd-4def-9368-86e0b5176eb9 to 455667de-ebbf-48f8-a694-3b6234269b63
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chicken from 2e849ef2-499d-40b6-b9f4-e3b33d178229 to 457f74d7-09d7-4a60-a8eb-aff65f4a674e
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chicken from 1cb8b7f0-cd95-4f3a-a437-d09586d8e9b7 to 1ee22272-2562-4aae-b707-917d32598206
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chicken from 0a70f3a3-4a9f-4946-aebd-2f60951ce1a3 to 6430fa29-4d63-473e-9cfc-8bb8bd3d67ef
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chicken from d6555bc3-111d-4d1b-80f3-0cf49ccfd76d to 1d437e29-9fcb-4d3c-b0f8-4c713ead2929
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from 59804a5b-2fc6-4d34-b060-89a37d397e65 to a33f3949-383b-4c8d-8638-968500f48115
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:night_bat from f3e370ca-2710-458e-b33a-8498e2e5ad85 to a62d5a39-2615-44ef-92f7-f2424b966217
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:night_bat from 44f37c7d-22c9-48e8-ad09-70b015a38188 to e9724df6-1b22-415e-a504-8ef6e2a5f99d
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:night_bat from 6570d51d-f582-480b-8148-666aa3397733 to a2000d85-72b5-45b9-aeeb-29c810dd7060
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 86c83262-6e72-4211-9af2-a45144a508d7 to 697312df-220b-42a5-8be9-0dc16c29eae9
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 0389977a-5c03-4617-985e-5012c0746b31 to a7d52929-cf36-43b1-a075-812e49d88e57
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 309d03b9-0582-4237-81b6-fd4d20d2de0e to d9c08c29-d348-4bbb-9964-342918088d5e
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 8e294025-3ce5-4256-942d-ea2314ed4f0c to 95510af6-1018-4391-b1a7-8472b9c28193
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:bat from 854106b5-96a1-4657-a4c5-a0f665563637 to fcf821ed-e8d8-4eda-9fd2-aa87425594e6
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from d42c4756-e343-46b0-bc81-95b84e53867d to f7243fec-2063-4b37-b5e9-23ec779f3f6e
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from 42c96a7a-4a39-4076-a4ea-279300c6bb13 to 03faaab9-0f9b-4da4-8909-eec9d1ea9d6c
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from 142fe947-382d-4100-b103-6bfe26315069 to 9a66b6c1-62da-4224-a85a-6abfff60a189
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from 6c8fde90-9be2-4e98-aac3-866fa0baca28 to 3ab8460a-0e70-419d-9c7d-f2f380d2a762
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from 3383f58b-8357-433a-aa01-193dd0da7041 to ba36c262-48f2-4200-8824-856aca3d2a46
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chest_minecart from 1d7523c5-90dc-495b-a947-e24214fb436b to ffad06d8-5578-44ac-900c-0b9972f8a43d
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:spider from aee48aa5-dd16-4ef7-b125-ec6fcb21d5f8 to 8045ec6b-a1e1-4714-8275-183abc6ad94c
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:enderman from 7163c095-aa8c-4244-958b-93625c9d17c2 to 3d586e08-fbff-499e-b4c5-2e64da6b12f8
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:enderman from 14b9c8c2-5be3-4644-94bd-cd24308b47ac to fa3d97b3-4e7d-40ce-b71d-e5d58ab01007
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:enderman from adb0abc5-0234-4827-9385-b7523d9c82f5 to 7c39b4fb-c1de-44a3-a251-809340c6ac8d
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from 59018594-0962-4e20-9149-647b428e3aa0 to 392572bc-38b2-4241-8a12-c5b2567c8626
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:night_bat from e2af308e-4d0c-4569-90b9-fdad55b03494 to 2b1ae7ff-bf40-43cf-bcc7-3575ad9a207f
+[13:36:36] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from 7efe8c55-8726-41fe-8ae1-2848b5a12a19 to 0b35ba41-a7cd-42a2-813f-ea9c237c4e1b
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:creeper from 70d83442-aafc-4870-8e7f-6550b45ab6e6 to eab4d0da-0c1e-479a-920e-bcf449d4e154
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:creeper from 114ea719-e4fe-4d12-8445-4c87f8e83c68 to a3bf4bb4-4cea-4dcc-a372-793275d6e99e
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:creeper from 904d1008-2284-4f7e-b587-e2866f0e9856 to 80f5b142-cee8-4b61-952e-420550930113
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 6f62b496-bab2-4199-b8b0-51337a6527fd to 901387b4-ad2d-44bd-aa4d-6e695c8c6e2b
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:zombie from 05263444-d7bc-4d7d-be35-947c7a13af39 to 9774cd67-d02b-4de3-af16-793915d81dca
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 6ae7d895-cce7-470f-ab29-105ddad23fa4 to 8b96049b-e1a9-4e17-9e84-d60767a2b97f
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from 42e6fc2b-708f-485d-b7bb-895eea3af608 to 8fdcc667-e723-49c4-b5ca-bf2eac0b5e0a
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chest_minecart from 130d4d9c-799c-4a58-a18b-e95251a69ca6 to 206210f1-ff1c-46a0-a2d9-51288e14b61f
+[13:36:37] [Server thread/INFO] [voicechat/]: Received secret request of hadasfadaa (14)
+[13:36:37] [Server thread/INFO] [voicechat/]: Sent secret to hadasfadaa
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from cdfbcf55-9345-4498-a4de-c2db62de21a0 to 8856c4da-5191-4e0d-9bfe-871f39467d69
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from 14a3088e-b73a-47a3-b647-602e38574238 to 852e05f5-d9d3-41c2-878d-ecbed3b5afd1
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:zombie from 48996ceb-8e03-4da5-8475-3036f48efa57 to 21407344-4f3f-46aa-9482-19515dc9e8ff
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 9a04eb85-51d5-48e7-996e-b7c34c240fad to d4566a1c-446a-4a0b-bd52-480a937ab820
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:fly from 02c741da-400d-4bb0-a1a9-46c25e15bbb7 to b4b6c8a5-280e-44eb-b618-a1a42527ebe9
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from e3163dcf-66bf-45b1-9958-690218b4513b to 8b3ae389-5a3c-41ae-a3db-0b25aedc1adc
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:clam from aff234c5-3665-4ac6-8845-51ff139e67d3 to 77bfa2ec-1976-4803-a591-8e07dbf8ebca
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:donkey from 7c0ba15b-4bc3-4736-a4f3-5d6ce39dc38a to 3c56fa98-e0b0-4301-bda2-ad7a8740e298
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from bb5dcbb5-1155-4b8d-ae93-8c16717236a5 to 6c1c317d-86d2-458c-ad3f-3d03cc2ab545
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from 4637179c-8642-4dcd-8d86-cea546aa649b to 81c0ac5a-4cb9-40fd-878c-8c4992a66d2b
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:chest_minecart from bc8ac1ca-b97d-4cc7-a762-58d6a9d2f01e to 210e2fb4-2de2-4202-b224-fc31523cd884
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:spider from 641a9738-3881-4dd1-89ee-815c5503cf69 to 88f6cd0d-8438-47c1-9064-512590f6102f
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:spider from a72240ce-e34e-4ddb-b5c6-b5f0def5dd61 to 0099ef5a-0f5f-4943-a876-56bbf5fc15b4
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity minecraft:skeleton from f933c259-2683-488f-848c-240973ab4672 to 04293aad-0513-4d10-b173-a877e3bacd85
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity tinyskeletons:baby_skeleton from 345141c0-63ee-45d6-9d8e-3769de038683 to 4e0f3332-318b-4715-8241-b3e8318ed986
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:night_bat from 824a06d0-a0b2-41d4-9705-d679a313f19c to e864df5f-b63a-40ce-b6a8-47fa4e2917cf
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity projectvibrantjourneys:firefly from cce15857-f034-44bb-9905-415631b29ae2 to 09e2d96f-6110-4fa0-9460-458a59e4c9b0
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from 819824d2-aa60-427b-bd94-b4aa1891d314 to 234d8407-48db-4d86-9a04-453c6faaa6f5
+[13:36:37] [Server thread/INFO] [randompatches/]: Changing UUID of duplicate entity betteranimalsplus:coyote from b7036ee3-dbdf-42e1-b9dc-50383fc4646f to a6235639-9aa5-47f0-9705-468aabdb616a
+[13:36:44] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Successfully authenticated player f8c57301-78a9-375a-8a14-4499f2b43da3
+[13:38:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: hadasfadaa issued server command: /time set day
+[13:38:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [hadasfadaa: Set the time to 1000]
+[13:38:06] [Server thread/INFO] [sereneseasons/]: Season time skipped by 10977 in minecraft:overworld
+[13:38:06] [Server thread/INFO] [sereneseasons/]: Season time skipped by 10977 in minecraft:the_nether
+[13:38:06] [Server thread/INFO] [sereneseasons/]: Season time skipped by 10977 in minecraft:the_end
+[13:38:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: hadasfadaa issued server command: /tps
+[13:38:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: hadasfadaa has made the advancement [You're a Wizard!]
+[13:44:03] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: hadasfadaa issued server command: /kill
+[13:44:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: hadasfadaa died
+[13:44:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [hadasfadaa: Killed hadasfadaa]
+[13:44:04] [Server thread/INFO] [/]: Quest Data sent For: hadasfadaa, To: all tracking, Reason: respawn
+[13:44:04] [Server thread/INFO] [/]: Magic Data sent For: hadasfadaa, To: all tracking, Reason: respawn
+[13:44:09] [Server thread/INFO] [TerraForged/]: Create Tile Cache...
+[13:44:09] [Server thread/INFO] [TerraForged/]: System Defaults:
+[13:44:09] [Server thread/INFO] [TerraForged/]:  Thread Count:  4
+[13:44:09] [Server thread/INFO] [TerraForged/]:  Tile Size:     3
+[13:44:09] [Server thread/INFO] [TerraForged/]:  Batch Size:    5
+[13:46:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: hadasfadaa issued server command: /plugins
+[13:47:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: hadasfadaa issued server command: /time set day
+[13:47:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [hadasfadaa: Set the time to 1000]
+[13:47:45] [Server thread/INFO] [sereneseasons/]: Season time skipped by 12432 in minecraft:overworld
+[13:47:45] [Server thread/INFO] [sereneseasons/]: Season time skipped by 12432 in minecraft:the_nether
+[13:47:45] [Server thread/INFO] [sereneseasons/]: Season time skipped by 12432 in minecraft:the_end
+[14:03:43] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: hadasfadaa issued server command: /time set day
+[14:03:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [hadasfadaa: Set the time to 1000]
+[14:03:43] [Server thread/INFO] [sereneseasons/]: Season time skipped by 4832 in minecraft:overworld
+[14:03:43] [Server thread/INFO] [sereneseasons/]: Season time skipped by 4832 in minecraft:the_nether
+[14:03:43] [Server thread/INFO] [sereneseasons/]: Season time skipped by 4832 in minecraft:the_end
+[14:29:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[14:29:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14:29:48] [Server thread/INFO] [me.NoChance.PvPManager.PvPManager/]: [PvPManager] Disabling PvPManager v3.9.4
+[14:29:48] [Server thread/INFO] [org.popcraft.chunkyborder.ChunkyBorderBukkit/]: [ChunkyBorder] Disabling ChunkyBorder v1.0.64
+[14:29:48] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit/]: [Chunky] Disabling Chunky v1.2.164
+[14:29:48] [Server thread/INFO] [com.songoda.ultimatemoderation.UltimateModeration/]: [UltimateModeration] Disabling UltimateModeration v2.0.9
+[14:29:48] [Server thread/INFO] [/]:  
+[14:29:48] [Server thread/INFO] [/]: =============================
+[14:29:48] [Server thread/INFO] [/]: UltimateModeration 2.0.9 by Songoda <3!
+[14:29:48] [Server thread/INFO] [/]: Action: Disabling...
+[14:29:48] [Server thread/INFO] [/]: =============================
+[14:29:48] [Server thread/INFO] [/]:  
+[14:29:48] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[14:29:49] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:29:49] [Server thread/INFO] [com.songoda.ultimateclaims.UltimateClaims/]: [UltimateClaims] Disabling UltimateClaims v1.9.0
+[14:29:49] [Server thread/INFO] [/]:  
+[14:29:49] [Server thread/INFO] [/]: =============================
+[14:29:49] [Server thread/INFO] [/]: UltimateClaims 1.9.0 by Songoda <3!
+[14:29:49] [Server thread/INFO] [/]: Action: Disabling...
+[14:29:49] [Server thread/INFO] [/]: =============================
+[14:29:49] [Server thread/INFO] [/]:  
+[14:29:49] [Server thread/INFO] [net.skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Disabling SkinsRestorer v14.1.15
+[14:29:49] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Disabling LuckPerms v5.4.9
+[14:29:49] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Starting shutdown process...
+[14:29:49] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Closing storage...
+[14:29:50] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Goodbye!
+[14:29:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14:29:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: hadasfadaa lost connection: Server closed
+[14:29:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: hadasfadaa left the game
+[14:29:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14:29:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:30:00] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:30:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[14:30:00] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:30:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[14:30:00] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

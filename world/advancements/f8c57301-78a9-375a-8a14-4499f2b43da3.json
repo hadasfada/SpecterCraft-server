@@ -1,4 +1,10 @@
 {
+  "schoolsofmagic:schoolsofmagic/youre_a_wizard": {
+    "criteria": {
+      "get_item": "2022-05-31 13:38:19 -0700"
+    },
+    "done": true
+  },
   "betteranimalsplus:bad_fox": {
     "criteria": {
       "no_bam": "2022-04-25 06:26:21 -0700"
@@ -86,7 +92,8 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands_plateau": "2022-04-25 06:28:46 -0700",
-      "minecraft:badlands": "2022-04-26 09:54:26 -0700"
+      "minecraft:badlands": "2022-04-26 09:54:26 -0700",
+      "minecraft:savanna": "2022-05-31 13:22:53 -0700"
     },
     "done": false
   },
