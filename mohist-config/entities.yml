@@ -257,3 +257,9 @@ overrides:
     skip-every: default
   net-minecraft-entity-projectile-EvokerFangsEntity:
     skip-every: default
+  net-minecraft-entity-monster-CaveSpiderEntity:
+    skip-every: default
+  net-minecraft-entity-merchant-villager-WanderingTraderEntity:
+    skip-every: default
+  net-minecraft-entity-passive-horse-TraderLlamaEntity:
+    skip-every: default

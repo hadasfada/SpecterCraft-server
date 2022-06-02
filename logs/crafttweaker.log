@@ -1,11 +1,11 @@
-[13:31:53.425][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[13:31:57.513][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+[11:13:03.686][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[11:13:24.273][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
 'aquaculture' at version '1.16.5-2.1.22'
 'crafttweaker' at version '7.1.2.508'
 'farmersdelight' at version '1.16.5-0.5.5'
 'jeitweaker' at version '1.1.0.49'
-[13:32:03.708][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[13:32:54.980][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[13:32:57.383][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
-[13:33:46.974][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[13:33:47.552][DONE][CLIENT][INFO] Finished loading Scripts!
+[11:13:35.407][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[11:14:44.183][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[11:14:48.410][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[11:15:28.132][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[11:15:28.744][DONE][CLIENT][INFO] Finished loading Scripts!

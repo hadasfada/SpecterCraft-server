@@ -1,10 +1,10 @@
 Applying: 
-  Clean:     C:\Users\Administrator\Desktop\New folder\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar
-  Output:    C:\Users\Administrator\Desktop\New folder\libraries\com\mohistmc\mohist\1.16.5-964\mohist-1.16.5-964-server.jar
+  Clean:     C:\Users\Administrator\Desktop\SpecterCraft-server\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar
+  Output:    C:\Users\Administrator\Desktop\SpecterCraft-server\libraries\com\mohistmc\mohist\1.16.5-964\mohist-1.16.5-964-server.jar
   KeepData:  false
   Unpatched: false
-  Patches:   C:\Users\Administrator\Desktop\New folder\libraries\com\mohistmc\installation\data\server.lzma
-Loading patches file: C:\Users\Administrator\Desktop\New folder\libraries\com\mohistmc\installation\data\server.lzma
+  Patches:   C:\Users\Administrator\Desktop\SpecterCraft-server\libraries\com\mohistmc\installation\data\server.lzma
+Loading patches file: C:\Users\Administrator\Desktop\SpecterCraft-server\libraries\com\mohistmc\installation\data\server.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 0 Exists: false
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
@@ -3765,7 +3765,7 @@ Loading patches file: C:\Users\Administrator\Desktop\New folder\libraries\com\mo
     Checksum: ac9766b4 Exists: true
   Reading patch net.minecraft.world.storage.WorldSavedData.binpatch
     Checksum: f3fb0286 Exists: true
-Processing: C:\Users\Administrator\Desktop\New folder\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar
+Processing: C:\Users\Administrator\Desktop\SpecterCraft-server\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar
   Patching net/minecraft/util/math/vector/Matrix3f 1/1
   Patching net/minecraft/world/server/ServerBossInfo 1/1
   Patching net/minecraft/world/server/ServerChunkProvider$1 1/1
